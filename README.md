@@ -1,3 +1,12 @@
+## Get up and running (Ajay)
+```
+gem install bundler jekyll
+bundle install
+  (bundle update nokogiri)
+bundle exec jekyll serve
+```
+
+
 ## How to Use This Theme
 Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
 
