@@ -1,6 +1,16 @@
-<ul class="links">
-  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">The Lounge</a></li>
-  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
-  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li>
-</ul>
+<nav id="nav">
+    <ul class="links">
+      <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Play</a></li>
+      <li class="{% if page.url contains '/learn/' %} active {% endif %}"><a href="{{ "/learn/" | absolute_url }}">Learn</a></li>
+      <li class="{% if page.url contains '/fitting/' %} active {% endif %}"><a href="{{ "/fitting/" | absolute_url }}">Club fitting</a></li>
+      <li class="{% if page.url contains '/technology/' %} active {% endif %}"><a href="{{ "/technology/" | absolute_url }}">Technology</a></li>
+      <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+      <li class="{% if page.url contains '/contact/' %} active {% endif %}"><a href="{{ "/contact/" | absolute_url }}">Contact</a></li>
+    </ul>
+
+    <ul class="icons">
+      <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+      <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
+      <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
+    </ul>
+</nav>

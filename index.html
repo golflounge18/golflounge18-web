@@ -1,6 +1,6 @@
 ---
 layout: null
-title: Golf Lounge 18 - Home Page
+title: Play at Golf Lounge 18
 description: Golf Lounge - A place for every golfer at Sportsplex at Firfield, CT.
 sitemap:
     priority: 1.0
@@ -42,36 +42,19 @@ Base: https://github.com/iwiedenm/jekyll-theme-massively-src
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
+				{% include nav.html %}
 
-            {% include nav.html %}
-
-						<ul class="icons">
-              <li><a href="https://twitter.com/{{site.twitter}}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-              <li><a href="https://instagram.com/{{site.instagram}}" class="icon fa-instagram" rel="nofollow"><span class="label">Instagram</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
 
 				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Golf Lounge 18</a></h2>
-									<p>A Golfer's paradise!</p>
-                  <p>Coming soon to Fairfield, CT...!</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/GolfLounge18.jpeg" | absolute_url }}" alt="" /></a>
-                <p>Coming soon to Fairfield, CT</p>
-                <p>
-                  A premier Golfing factility.
-                </p>
-								<p>
-                  Play, Practice, Learn, Enjoy!
-                </p>
-
+				<div id="main">
+					<!-- Featured Post -->
+					<article class="post featured">
+						<header class="major">
+							<h2><a href="#">Golf Lounge 18</a></h2>
+							<p>Year round Golf. Play, Practice, Learn, Enjoy!</p>
+							<p>A premier Golfing facility. Opening Fall 2018 at {{site.location}}</p>
+						</header>
+						<a href="#" class="image main"><img src="{{ "/images/GolfLounge18.jpeg" | absolute_url }}" alt="" /></a>
 							</article>
 
 						<!-- Posts -->
@@ -100,15 +83,6 @@ Base: https://github.com/iwiedenm/jekyll-theme-massively-src
                 {% endfor %}
 
 							</section>
-
-						<!-- Footer --
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-            -->
-
 					</div>
 
 				<!-- Footer -->

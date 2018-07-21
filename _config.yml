@@ -34,15 +34,14 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+analytics-id:       "GTM-NQRJ3K2"
+twitter:            golflounge18
+facebook:           golflounge18
+instagram:          golflounge18
 
 # personal
-location:           Fairfield, CT
-phone:              203-273-6179
+location:           85 Mill Plane Rd, Fairfield, CT 06824
+phone:              203-307-5354
 email:              info@golflounge18.com
 
 # Gems

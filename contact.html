@@ -1,0 +1,39 @@
+---
+layout: page
+title: Contact details - Golf Lounge 18
+description: Contact us
+sitemap:
+priority: 0.7
+lastmod: 2018-07-21
+changefreq: weekly
+---
+<header class="major">
+    <h1>Contact us</h1>
+    <p>
+        We are Coming in Fall 2018 to {{site.location}}
+        <br>
+        Call us: <a href="tel:{{site.phone}}">{{site.phone}}</a>
+        <br>
+        Email us: <a href="mailto:{{site.email}}">{{site.email}}</a>
+    </p>
+</header>
+
+<section>
+    <form method="POST" action="https://formspree.io/{{site.email}}">
+        <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" />
+        </div>
+        <div class="field">
+            <label for="email">Your Email</label>
+            <input type="text" name="email" id="email" />
+        </div>
+        <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+        </div>
+        <ul class="actions">
+            <li><input type="submit" value="Send Message" /></li>
+        </ul>
+    </form>
+</section>

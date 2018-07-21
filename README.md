@@ -6,6 +6,9 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Elements reference
+Removed from Navigation, but can be viewed at:
+http://golflounge18.com/elements/
 
 ## How to Use This Theme
 Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
