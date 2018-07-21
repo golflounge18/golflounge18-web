@@ -11,7 +11,7 @@ sitemap:
 
 Learning is fun!
 
-<img src="{{ "/images/teaching-bay.jpeg" | absolute_url }}" alt="" />
+<img class="image main" src="{{ "/images/teaching-bay.jpeg" | absolute_url }}" alt="" />
 
 
 Details coming soon...

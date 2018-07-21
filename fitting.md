@@ -9,6 +9,6 @@ sitemap:
 ---
 ## Club Fitting at Golf Lounge 18
 
-<img src="{{ "/images/fitting.jpeg" | absolute_url }}" alt="" />
+<img class="image main" src="{{ "/images/fitting.jpeg" | absolute_url }}" alt="" />
 
 Details coming soon...

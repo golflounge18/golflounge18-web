@@ -15,7 +15,7 @@ We use the best simulator in the industry - Trackman.
 
 Stop by to Play, Learn, Practice and have a good time.
 
-<img src="{{ "/images/GolfLounge18.jpeg" | absolute_url }}" alt="" />
+<img class="image main" src="{{ "/images/GolfLounge18.jpeg" | absolute_url }}" alt="" />
 
 
 ### Meet the team
