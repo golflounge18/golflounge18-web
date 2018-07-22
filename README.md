@@ -4,11 +4,13 @@ gem install bundler jekyll
 bundle install
   (bundle update nokogiri)
 bundle exec jekyll serve
+bundle exec jekyll serve --host 0.0.0.0
+jekyll serve --host 0.0.0.0 for the server to be available from outside.
 ```
 
-## Elements reference
-Removed from Navigation, but can be viewed at:
-http://golflounge18.com/elements/
+## Reference
+* Elements: Removed from Navigation, but can be viewed at: http://golflounge18.com/elements/
+* Icons and images on the website: https://fontawesome.com/
 
 ## How to Use This Theme
 Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
