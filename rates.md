@@ -16,9 +16,20 @@ We are open
 Peak hours:
 * Monday to Thursday: 6pm to close
 * Friday: 4pm to close
-* Saturday, Sunday: All day
+* Saturday, Sunday, Holidays and Long weekends: All day
 
 Rest everything is considered off-peak.
+
+## Events and Parties
+
+Golf Lounge 18 is the perfect place to have your next event or a get together.
+We offer up to 4 bays, TVs, speakers throughout the place.
+We can also provide a golf pro to teach mini-lessons, run contests and games,
+and address any of your golfing needs.
+
+We have a variety of packages, including food and drinks, and are happy to work with your budget to make your event happen. Please fill out this form and our events coordinator will get back to you.
+
+<< EVENT INQUIRY FORM COMING SOON >>
 
 ## Memberships
 
@@ -28,7 +39,7 @@ Membership benefits:
 * 3 free non-peak hours of golf bay rentals
 * 15% everything
 
-Membership Cost: $249 per month, with an yearly commitment
+Membership Cost: $250 per month with yearly commitment
 
 ## Leagues
 
