@@ -10,8 +10,8 @@ sitemap:
 ## Hours of Operation
 
 We are open
-* Monday to Thursday: 9am to 10pm
-* Friday to Sunday: 8am to midnight
+* Monday to Thursday: 7am to 10pm
+* Friday to Sunday: 7am to midnight
 
 Peak hours:
 * Monday to Thursday: 6pm to close
@@ -23,6 +23,7 @@ Rest everything is considered off-peak.
 ## Memberships
 
 Membership benefits:
+* Book up to 2 weeks in advance (compared to 1 week for non-members)
 * 2 free peak hours of golf bay rentals
 * 3 free non-peak hours of golf bay rentals
 * 15% everything
@@ -48,5 +49,6 @@ Leagues run every Wednesday from 6pm to 8pm.
 ## Open Play
 
 Play at our golf bays by the hour!
+* Book up to 1 week in advance
 * Off peak hourly rate: $45
 * Peak hourly rate: $60
