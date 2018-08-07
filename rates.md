@@ -25,9 +25,9 @@ Rest everything is considered off-peak.
 Golf Lounge 18 is the perfect place to have your next event or a get together.
 We offer up to 4 bays, TVs, speakers throughout the place.
 We can also provide a golf pro to teach mini-lessons, run contests and games,
-and address any of your golfing needs.
+and address any of your event needs.
 
-We have a variety of packages, including food and drinks, and are happy to work with your budget to make your event happen. Please fill out this form and our events coordinator will get back to you.
+We have a variety of packages, including food and drinks, and are happy to work with your budget. Please fill out this form and our events coordinator will get back to you.
 
 << EVENT INQUIRY FORM COMING SOON >>
 
@@ -44,14 +44,14 @@ Membership Cost: $250 per month with yearly commitment
 ## Leagues
 
 Leagues run every Wednesday from 6pm to 8pm.
-* Each league runs for 8 weeks
+* Each league runs for 6 weeks.
+* Scoring takes into account only the best 5 of your 6 scores
 * Teams of upto 4 people can participate. If needed, you can bring a sub.
 
 **Rewards**:
 * First place team: 5x 1 Hour golf bay rental time
 * Second place: 3x 1 Hour golf bay rental time
 * Third place:  2x 1 Hour golf bay rental time
-
 
 **Rates**:
 * Register your team: $800
