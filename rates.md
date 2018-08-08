@@ -37,7 +37,7 @@ Membership benefits:
 * Book up to 2 weeks in advance (compared to 1 week for non-members)
 * 2 free peak hours of golf bay rentals
 * 3 free non-peak hours of golf bay rentals
-* 15% everything
+* 15% off everything
 
 Membership Cost: $250 per month with yearly commitment
 
