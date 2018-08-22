@@ -1,3 +1,5 @@
+DEPRECATED
+
 ## Get up and running (Ajay)
 ```
 gem install bundler jekyll
