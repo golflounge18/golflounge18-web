@@ -6,20 +6,26 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: L'AVAR
-email: your-email@domain.com
+title: Golf Lounge 18
+email: info@golflounge18.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A premier Golfing facility at Sportsplex at 85 Mill Plain Rd, Fairfield, CT 06824
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
+# Social
+twitter_username: golflounge18
+facebook_username: golflounge18
+instagram_username: golflounge18
+analytics-id:       "GTM-NQRJ3K2"
+gmap:               Fz94DRLaLfT2
+
+location:           85 Mill Plain Rd, Fairfield, CT 06824
+phone:              +1-203-307-5354
+email:              info@golflounge18.com
 
 # Build settings
 markdown: kramdown
-
 
 gems:
   - jekyll-paginate
