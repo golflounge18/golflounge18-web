@@ -1,17 +1,18 @@
-<div class="full no-padding footer brown centered-text">
-  <div class="four spacing"></div>
+<div class="full no-padding footer blue centered-text">
+  <div class="two spacing"></div>
   <div class="row">
     <div class="small-12 columns">
+          <p>Made with <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> in <a href="https://en.wikipedia.org/wiki/Tirana" target="_blank">Tirana, Albania</a><p>
+      <div class="one spacing"></div>
       <ul class="socials">
-        <li><a href="#"><i class='fa fa-twitter'></i></a></li>
-        <li><a href="#"><i class='fa fa-facebook'></i></a></li>
-        <li><a href="#"><i class='fa fa-linkedin'></i></a></li>
-        <li><a href="#"><i class='fa fa-dribbble'></i></a></li>
-        <li><a href="#"><i class='fa fa-behance'></i></a></li>
+        <li><a href="https://twitter.com/uracreative" target="_blank"><i class='fab fa-twitter'></i></a></li>
+        <li><a href="https://github.com/uracreative/ura.design/" target="_blank"><i class='fab fa-github'></i></a></li>
       </ul>
-      <p>Copyright ©2015 {{site.title}}.</p>
-      <p>All rights reserved.</p>
-      <div class="four spacing"></div>
+      <p>Committed to Free Software, Internet Freedom, and <a href="http://opensourcedesign.net/">Open Source Design</a></p>
+      <p> Trademarks are property of their respective owners. All site content, unless otherwise noted, is licensed <a href="http://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0 International</a> by Ura Design</p>
+      <p><a href="https://tinyletter.com/uracreative/archive" target="_blank">Newsletter Archive</a></p>
+      <p><a href="{{ site.baseurl }}/privacy-policy" target="_blank">Privacy Policy</a></p>
+      <div class="two spacing"></div>
       <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Back to top</a></p>
     </div>
   </div>
@@ -27,3 +28,24 @@
 <script src="{{ "/bower_components/countto/jquery.countTo.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/appear/jquery.appear.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/svg.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/cookie.js" | prepend: site.baseurl }}"></script>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  / tracker methods like "setCustomDimension" should be called before "trackPageView" /
+  _paq.push(["setCookieDomain", "*.ura.design"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.ura.design/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+<noscript><p><img src="//analytics.ura.design/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->

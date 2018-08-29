@@ -56,9 +56,9 @@ html, body {
 
 body {
   background: #fff;
-  color: #333333;
+  color: #343a40;
   cursor: auto;
-  font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -156,6 +156,9 @@ select {
   float: right; }
 .column + .column.end, .columns + .columns.end {
   float: left; }
+
+.column + .column.end, .columns.blog + .columns.end {
+  float: left }
 
 @media only screen {
   .small-push-0 {
@@ -722,7 +725,7 @@ select {
   .large-2 {
     width: 16.6666666667%; }
   .large-3 {
-    width: 25%; }
+    width: 20%; }
   .large-4 {
     width: 33.3333333333%; }
   .large-5 {
@@ -890,7 +893,9 @@ select {
   .pull-11 {
     position: relative;
     right: 91.6666666667%;
-    left: auto; } }
+    left: auto; }
+   .large-1.blog {
+    width: 12%; } }
 
 .accordion {
   margin-bottom: 0; }
@@ -908,7 +913,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1305,7 +1310,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1371,7 +1376,7 @@ button, .button {
     font-size: 0.8125rem; }
   button.tiny, .button.tiny {
     padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
-    font-size: 0.6875rem; }
+    font-size: 0.8571rem; }
   button.expand, .button.expand {
     padding-left: 0;
     padding-right: 0;
@@ -2500,9 +2505,8 @@ form .row .postfix-round.row.collapse .postfix {
   border-top-right-radius: 1000px; }
 
 input[type="submit"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 0; }
+  border-radius: 0;
+  padding: 10px; }
 
 /* Respect enforced amount of rows for textarea */
 textarea[rows] {
@@ -3055,7 +3059,7 @@ label.error {
 
 .label {
   display: inline-block;
-  font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -3431,7 +3435,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: '"Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3439,7 +3443,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3693,7 +3697,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -3714,7 +3718,7 @@ ul.pagination {
         color: #c4ac90; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #c4ac90;
-      font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -3832,7 +3836,7 @@ ul.pagination {
   .sub-nav dt, .sub-nav dd, .sub-nav li {
     color: #999999;
     float: left;
-    font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4007,7 +4011,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -4222,7 +4226,8 @@ meta.foundation-mq-topbar {
         top: -1px; } }
   .top-bar .title-area {
     margin: 0;
-    position: relative; }
+    position: relative;
+    height: 4rem; }
   .top-bar .name {
     font-size: 16px;
     height: 6.25rem;
@@ -4309,7 +4314,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: 'josefin sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 1.25rem;
@@ -4444,7 +4449,7 @@ meta.foundation-mq-topbar {
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
-      right: 0; }
+      right: 6px; }
     .top-bar-section .has-dropdown.moved {
       position: static; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -4527,13 +4532,14 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     margin-bottom: 0;
     margin: 0 auto;
-    max-width: 77.5rem; }
+    max-width: 77.5rem;
+    height: 4rem; }
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
       display: inline;
-      height: auto !important;
+      height: 4rem;
       width: auto; }
       .top-bar-section ul li {
         float: left; }
@@ -4545,31 +4551,30 @@ meta.foundation-mq-topbar {
       color: #666; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       background: #333333;
-      line-height: 6.25rem;
-      padding: 0 1.25rem; }
+      line-height: 4rem;
+      padding: 0 1rem; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #222222; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       background: #AB8860;
       color: #FFFFFF;
-      line-height: 6.25rem;
-      padding: 0 1.25rem; }
+      line-height: 4rem;
+      padding: 0 1rem; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #96754f;
         color: #FFFFFF; }
     .top-bar-section .has-dropdown > a {
       padding-right: 2.5rem !important; }
       .top-bar-section .has-dropdown > a:after {
-        border: inset 5px;
         content: "";
         display: block;
         height: 0;
         width: 0;
-        border-color: rgba(51, 51, 51, 0.4) transparent transparent transparent;
-        border-top-style: solid;
-        margin-top: -2.5px;
-        top: 3.125rem; }
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #cccccc;
+        margin-top: -2.5px; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -4792,21 +4797,21 @@ a {
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #96754f; }
+    color: #3399d4; }
   a img {
     border: none; }
 
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   p.lead {
     font-size: 1.34375rem;
-    line-height: 1.6; }
+    line-height: 1.4; }
   p aside {
     font-size: 0.875rem;
     font-style: italic;
@@ -4814,8 +4819,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
-  font-family: "chivo";
+  color: #343a40;
+  font-family: "Overpass";
   font-style: normal;
   font-weight: bold;
   line-height: 1.4;
@@ -4959,7 +4964,9 @@ blockquote {
 
 blockquote, blockquote p {
   line-height: 1.6;
-  color: #7a7a7a; }
+  color: #7a7a7a;
+  border-left: 5px solid #ccc;
+  padding: 0px 20px; }
 
 /* Microformats */
 .vcard {
@@ -4997,7 +5004,12 @@ blockquote, blockquote p {
   h5 {
     font-size: 1.125rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  h3.blog {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-weight: 900; } }
 
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;

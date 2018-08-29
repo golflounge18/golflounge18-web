@@ -1,129 +1,94 @@
 ---
 layout: default
+title: Ura Design | Services
 section_id: pages
 services:
-- title: Branding
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
-    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
-    odio ea.
-  image: images/@stock/service-3.jpg
-  image_position: left
-- title: Website
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
-    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
-    odio ea.
-  image: images/@stock/service-1.jpg
-  image_position: right
+- title: Visual Identity
+  desc: 
+  icon: fa fa-tint
+- title: Brand Strategy
+  desc: 
+  icon: fas fa-lightbulb
+- title: Usability
+  desc: 
+  icon: fas fa-universal-access
+- title: UX Design
+  desc: 
+  icon: fas fa-pencil-alt
 - title: Print
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
-    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
-    odio ea.
-  image: images/@stock/service-2.jpg
-  image_position: left
-- title: Packaging
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae,
-    expedita obcaecati, commodi distinctio accusamus mollitia ratione ipsam cupiditate
-    odio ea.
-  image: images/@stock/service-4.jpg
-  image_position: right
+  desc: 
+  icon: fas fa-print
+- title: Copywriting
+  desc: 
+  icon: fas fa-copy
 
-principles:
-- title: Work with passion
-  desc: Lorem ipsum dolor sit amet adipisicing elit. Maxime eos facilis
-    veniam obcaecati, fugiat illo soluta accusantium?
-  icon: icon-basic-heart
-- title: Fail and Learn
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum,
-    nihil accusamus sint et repudiandae.
-  icon: icon-basic-flag2
-- title: Repeat and Success
-  desc: Dolor sit amet, consectetur adipisicing elit. Maxime eos facilis
-    veniam obcaecati, fugiat illo soluta accusantium?
-  icon: icon-basic-paperplane
+steps:
+- title: Research
+  desc: Some projects have a single contact point, while some others work with community consensus. We reseach what the best approach is and propose an action plan tailored to the specific project.
+- title: Iterations
+  desc: We draft the first proposals and iterate based on feedback, while documenting the steps we took in the open, preferably GitHub.
+- title: Implementation
+  desc: Once the final work is taking shape we start implementing the designs and help projects along the way if any need arises. We share our work in the open afterwards.
 ---
 
-<div class="full centered-text light-cyan lamp">
-  <div class="four spacing"></div>
-  <div class="section-title">
+<div class="full new" style="background-color: #3399d4;">
+  <div class="section-title new">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h1 class="wow slideInUp">Services</h1>
+        <h1 class="wow slideInUp" style="font-size: 2rem;">Services</h1>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="medium-9 medium-centered columns">
-      <div class="header-quote">
-        <p>To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.</p>
-      </div>
-    </div>
-  </div>
-  <div class="two spacing"></div>
 </div>
-<div class="four spacing"></div>
-<div class="two spacing"></div>
-{% for service in page.services %}
-  <div class="full no-padding">
-    <div class="row">
-      {% if service.image_position == 'left' %}
-        <div class="medium-6 columns">
-          <img src="{{site.url}}/{{service.image}}" alt="">
-        </div>
-        <div class="medium-6 columns">
-          <div class="service-info right-text">
-            <h2>{{service.title}}</h2>
-            <p>{{service.desc}}</p>
-            <div class="two spacing"></div>
-            <a href="#" class="button brown">Case study</a>
-          </div>
-        </div>
-      {% else %}
-        <div class="medium-6 columns">
-          <div class="service-info right-text">
-            <h2>{{service.title}}</h2>
-            <p>{{service.desc}}</p>
-            <div class="two spacing"></div>
-            <a href="#" class="button brown">Case study</a>
-          </div>
-        </div>
-        <div class="medium-6 columns">
-          <img src="{{site.url}}/{{service.image}}" alt="">
-        </div>
-      {% endif %}
-    </div>
-    <div class="four spacing"></div>
-    <div class="two spacing"></div>
+<div class="full text">
+   <div class="row">
+    <div class="large-12 centered-text columns">
+      <p>While we specialize in working with Open Source and Internet Freedom Projects, we understand that every community might have different needs and aim to accommodate those in our design processes.</p>
+     </div>
   </div>
-{% endfor %}
-<div class="full light-grey centered-text">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="services">
+        {% for service in page.services %}
+          <div class="large-4 columns">
+            <a href="javascript:void(0);" class="icon-text">
+              <i class="{{service.icon}}"></i><br />
+              <h3>{{service.title}}</h3>
+              <p>{{service.desc}}</p>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="process" class="full light-grey" style="padding: 35px 0;">
   <div class="section-title">
     <div class="row">
       <div class="medium-10 medium-centered columns">
-        <h2>Our values</h2>
-        <p>We have principles to do things</p>
+        <h2>Our process</h2>
+        <p>We adapt to your consensus model by applying best practices in Open Source Design</p>
       </div>
     </div>
   </div>
   <div class="row">
-    {% for principle in page.principles %}
+    {% for step in page.steps %}
       <div class="large-4 columns">
-        <div class="principle">
-          <i class="{{principle.icon}}"></i>
-          <h4>{{principle.title}}</h4>
-          <p>{{principle.desc}}</p>
+        <div class="process">
+          <h3><span>0{{forloop.index}}.</span>{{step.title}}</h3>
+          <p>{{step.desc}}</p>
         </div>
       </div>
     {% endfor %}
   </div>
 </div>
-<div class="full centered-text">
-  <div class="two spacing"></div>
+<div class="full centered-text" style="padding: 50px 0;">
   <div class="row">
     <div class="large-12 columns">
       <h2>Have a project in mind?</h2>
-      <div class="two spacing"></div>
-      <a href="{{site.url}}/contact.html" class="button brown boxed">Let's talk</a>
+      <p>We now offer <a href="https://ura.design/2018/03/31/introducing-cryptopayments-for-our-services">cryptocurrency payments</a> for our services</p>
+      <a href="request" class="button blue boxed">Let's talk</a>
     </div>
   </div>
-  <div class="two spacing"></div>
 </div>
