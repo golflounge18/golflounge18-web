@@ -3,6 +3,8 @@ Theme Purchased from https://themeforest.net/item/lavar-portfolio-agency-jekyll-
 Jekyll templates updated with ideas from https://github.com/uracreative/ura.design
 Permission: https://github.com/uracreative/ura.design/issues/6
 
+==================
+
 Install jekyll: https://jekyllrb.com/docs/installation/
 
 ```
