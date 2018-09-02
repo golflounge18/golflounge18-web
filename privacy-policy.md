@@ -1,0 +1,43 @@
+---
+layout: page
+title: Privacy policy of Golf Lounge 18
+description: Privacy policy of Golf Lounge 18
+sitemap:
+    priority: 0.7
+    lastmod: 2018-09-02
+    changefreq: weekly
+---
+
+## Privacy Policy
+
+<div class="full text">
+  <div class="row">
+   <div class="large-10 large-centered columns">
+     <p>Your privacy is critically important to us. We have a few fundamental principles:</p>
+     <ul>
+     <li>We don’t ask you for personal information unless we truly need it.</li>
+     <li>We don’t share your personal information with anyone except to comply with the law, build our services or protect our rights.</li>
+     <li>We don’t store personal information on our servers unless required for the ongoing operation of one of our services.</li>
+     </ul>
+
+     <p>Below is our privacy policy, which incorporates these goals. (Note: this privacy policy available under a Creative Commons ShareAlike license, which means you’re more than welcome to steal it and repurpose it for your own use. Just make sure to replace references to us with ones to you, and we’d appreciate a link to Automattic.com, which is the organisation that created this document first).</p>
+
+     <p>If you have questions about deleting or correcting your personal data please contact our <a href="mailto:info@golflounge18.com">support team</a>.<br />
+       It is our policy to respect your privacy regarding any information we may collect while operating our platform.</p>
+
+     <p><strong>Website Visitors</strong></p>
+
+<p>Like most website operators, we analyze non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. 
+Our purpose in collecting non-personally identifying information is to better understand how out visitors use our website.
+</p>
+
+     <p><strong>Gathering of Personally-Identifying Information</strong></p>
+
+<p>Certain visitors to our website choose to interact with us in ways that requires us to gather personally-identifying information. The amount and type of information that we gather depends on the nature of the interaction. For example, those who engage in financial transactions related to the our services – by purchasing a tee time, for example – are asked to provide additional information, including as necessary the personal and financial information required to process those transactions. In each case, we collect such information only insofar as is necessary or appropriate to fulfill the purpose of the transaction. We do not disclose personally-identifying information to anyone else.</p>
+
+      <p><strong>Privacy Policy Changes</strong></p>
+      <p>Although most changes are likely to be minor, we may change our Privacy Policy from time to time, and at our sole discretion. We encourage visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
+
+    </div>
+  </div>
+</div>
