@@ -14,15 +14,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Social
-twitter_username: golflounge18
-facebook_username: golflounge18
-instagram_username: golflounge18
-analytics-id:       "GTM-NQRJ3K2"
-gmap:               Fz94DRLaLfT2
+twitter:       golflounge18
+facebook:      golflounge18
+instagram:     golflounge18
+analytics-id:  "GTM-NQRJ3K2"
+gmap:          Fz94DRLaLfT2
 
-location:           85 Mill Plain Rd, Fairfield, CT 06824
-phone:              +1-203-307-5354
-email:              info@golflounge18.com
+location:      85 Mill Plain Rd, Fairfield, CT 06824
+phone:         +1-203-307-5354
+email:         info@golflounge18.com
 
 # Build settings
 markdown: kramdown

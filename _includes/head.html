@@ -9,6 +9,7 @@
   <!-- Metadata -->
   
   <meta property="og:site_name" content="{{ site.title }}">
+
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
@@ -18,24 +19,30 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ site.description }}">
   {% endif %}
+
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   {% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
   {% if page.tags %}
   <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
   {% for tag in page.tags %}
   <meta property="article:tag" content="{{ tag }}">
   {% endfor %}
   {% endif %}
+
   {% if page.images %}
-  <meta content="https://ura.design/{{ page.images }}" property="og:image">
+  <meta content="/{{ page.images }}" property="og:image">
   {% else %}
-  <meta content="https://ura.design/images/main/icon.png" property="og:image">
+  <meta content="/images/golf-lounge-18-logo.png" property="og:image">
   {% endif %}
+
+  <!--
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@uracreative" />
   <meta name="twitter:image:src" content="https://ura.design/{{ page.images }}" />
+  -->
   
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
   <link href="{{ "/fonts/overpass/overpass.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -45,7 +52,7 @@
   <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}"/>
   <link rel="stylesheet" href="{{ "/css/linea-styles.css" | prepend: site.baseurl }}"/>
   <link rel="stylesheet" href="{{ "/css/linea-arrows-styles.css" | prepend: site.baseurl }}"/>
-  <link rel="stylesheet" href="{{ "/css/fontawesome-all.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/all.css" | prepend: site.baseurl }}"/>
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}"/>
   <link rel="stylesheet" href="{{ "/css/responsive.css" | prepend: site.baseurl }}"/>
 

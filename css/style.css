@@ -84,6 +84,9 @@
 .full.blue {
   background: #3399d4; }
 
+.full.gl18_green {
+  background: #53702D; }
+
 .full.light-grey {
   background: #f6f6f6; }
 
@@ -169,7 +172,19 @@
   height: 100%;
   display: block;
   z-index:0;
-  background-color: rgba(88, 89, 91, 0.6);
+  background-color: rgba(88, 89, 91, 0.5);
+}
+
+.overlay.green:before {
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(83, 112, 45, 0.3);
 }
 
 .no-padding {

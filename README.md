@@ -1,9 +1,23 @@
 Theme Purchased from https://themeforest.net/item/lavar-portfolio-agency-jekyll-theme/15679321 - signed up as ajay610@gmail.com
 
+Documentation: http://localhost:4000/doc/documentation.html
+
 Jekyll templates updated with ideas from https://github.com/uracreative/ura.design
 Permission: https://github.com/uracreative/ura.design/issues/6
+Website: https://ura.design/
 
 ==================
+
+## TODO
+- Integrate signing up with mailchip into the website
+- Set same font as Golf Lounge
+- 404 must have a golf related image (see 404.html)
+- Confirm / verify that google analytics still works (is includes/tracking.html used anywhere? - add to layouts): Should use Matomo? Its free! - removed Matomo code from footer.html
+- Uncomment / Fix / Get testimonials on index.html
+- All images must have an alt tag
+- All pages must have tags, title, description - Define page.tags - see head.html for use / seo!
+
+## Getting Started
 
 Install jekyll: https://jekyllrb.com/docs/installation/
 
