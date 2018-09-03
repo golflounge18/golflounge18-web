@@ -6,6 +6,9 @@ Jekyll templates updated with ideas from https://github.com/uracreative/ura.desi
 Permission: https://github.com/uracreative/ura.design/issues/6
 Website: https://ura.design/
 
+Theme for many xgolf centers: https://themesinfo.com/jupiter-child-wordpress-theme-rzh/latest
+example: https://www.xgolfshelby.com/
+
 ==================
 
 ## TODO
@@ -16,6 +19,8 @@ Website: https://ura.design/
 - Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag
 - All pages must have tags, title, description - Define page.tags - see head.html for use / seo!
+- Transitions need to be faster
+- Find/buy better stock photos
 
 ## Getting Started
 
