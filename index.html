@@ -1,99 +1,152 @@
 ---
-layout: null
-title: Play at Golf Lounge 18
-description: Golf Lounge - A place for every golfer at Sportsplex at Firfield, CT.
-sitemap:
-    priority: 1.0
-    lastmod: 2018-07-04
-    changefreq: weekly
+layout: default
+section_id: home
+slides:
+- text: Play year round
+  subtitle: Including winters!
+  overlay: overlay green
+  bg_color: "#53702D"
+  image: images/golf-lounge-18-logo-splash1.png
+  button:
+    text: Find tee time
+    url: /book
+- text: Virtual Golf, Real Fun!
+  overlay: overlay grey
+  bg_color: "#c9c9c9"
+  image: images/play.png
+  button:
+    text: Rates
+    url: /rates
+- text: Best in business!
+  button:
+    text: Learn more
+    url: /technology
+  bg_color: "#53702D"
+  overlay: overlay green
+  image: images/Luke-Donald-TM4.png
+- text: Improve your game
+  button:
+    text: Lessons
+    url: /learn
+  bg_color: "#53702D"
+  overlay: overlay green
+  image: images/teaching-bay.jpeg
+
+testimonials_left:
+  - author: Jeff Beatty - Mozilla
+    twitter: https://twitter.com/gueroJeff
+    content: “The folks at Ura were very professional in learning our expectations, planning the project, and being flexible as things changed. Add to that their commitment to work in the open and it made for a wonderful experience.”
+    avatar: images/testimonials/jeffbeatty.png
+  - author: Benjamin Kerensa  - Glucosio
+    twitter: https://twitter.com/bkerensa
+    content: “When looking for an identity for Glucosio we put our faith into Ura. With an unrivaled ability to bring ideas together into a fresh and modern branding experience we were really happy with the results.”
+    avatar: images/testimonials/benjaminkerensa.png
+
+testimonials_right:
+  - author: Justin Dorfman - Stickermule
+    twitter: https://twitter.com/jdorfman
+    content: “Ever since 'Open Source' was coined 20 years ago, a majority of projects have lacked great design. Ura is leading the way to fill that gap of Open Source Design in the community.”
+    avatar: images/testimonials/justindorfman.png
+  - author: Sara Sinclair Brody - Simply Secure
+    twitter: https://twitter.com/scouttle
+    content: “Ura understood the needs of the open-source community when we worked together creating a styleguide for the Tor Project. They were able to deliver a polished result in a large, distributed volunteer organization.”
+    avatar: images/testimonials/simplysecure.png
 ---
-<!DOCTYPE HTML>
+
+<div class="full no-padding" style="height: 100vh;">
+  <div id="slides">
+    <div class="slides-container">
+      {% for slide in page.slides %}
+        <div class="slide">
+          <div class="slide-info">
+            <p>{{ slide.title }}</p>
+            <h1>{{ slide.text }}</h1>
+            <div class="one spacing"></div>
+            <p style="line-height: 1.3;">{{ slide.subtitle }}</p>
+            <div class="one spacing"></div>
+            <a href="{{ slide.button.url }}" class="button boxed white">{{ slide.button.text }}</a>
+          </div>
+          <div class="slide-left" style="background-color: {{ slide.bg_color }};">
+          </div>
+          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <nav class="slides-navigation">
+      <a href="#" class="next"><i class="icon-arrows-slim-right"></i></a>
+      <a href="#" class="prev"><i class="icon-arrows-slim-left"></i></a>
+    </nav>
+  </div>
+</div>
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <img src="images/golf-lounge-18-logo.png" alt="Golf Lounge 18 logo" width="100" height="74" class="wow flipInY" data-wow-duration="2s" data-wow-delay="0.1s">
+        <div class="spacing"></div>
+        <h2>Come play at Golf Lounge 18</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 large-centered columns">
+      <center>A premier Golfing facility. Opening Fall 2018 at <a target="_blank" href="https://goo.gl/maps/{{site.gmap}}">{{site.location}}</a></center>
+    </div>
+  </div>
+</div>
+
 <!--
-Base: https://github.com/iwiedenm/jekyll-theme-massively-src
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Testimonials</h2>
+        <p>What people say about us</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_left %}
+        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="large-6 columns">
+      {% for testimonial in page.testimonials_right %}
+        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
+          <div class="row">
+            <div class="small-3 columns">
+              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
+            </div>
+            <div class="small-9 columns">
+              <p>{{testimonial.content}}</p>
+              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
 -->
-<html>
-	<head>
-    {% include head.html %}
 
-
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<img class="image left" src="{{ "/images/kisspng-lets-golf.png" | absolute_url }}" alt="Golf Lounge 18 logo" />
-						<h1>{{site.title}}</h1>
-						<h2>Coming 2018 Fall to <a target="_blank" href="https://goo.gl/maps/{{site.gmap}}">Sportsplex in Fairfield, CT</a></h2>
-						<p>Year round Golf!</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-				{% include nav.html %}
-
-
-				<!-- Main -->
-				<div id="main">
-					<!-- Featured Post -->
-					<article class="post featured">
-						<header class="major">
-							<h2><a href="#">Golf Lounge 18</a></h2>
-							<p>Year round Golf. Play, Practice, Learn, Enjoy!</p>
-							<p>A premier Golfing facility. Opening Fall 2018 at <a target="_blank" href="https://goo.gl/maps/{{site.gmap}}">{{site.location}}</a></p>
-						</header>
-						<a href="#" class="image main"><img src="{{ "/images/GolfLounge18.jpeg" | absolute_url }}" alt="" /></a>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
-                {% endfor %}
-
-							</section>
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
-</html>
+<div class="full light-grey no-padding">
+  <div id="newsletter" class='row'>
+    <div class='medium-10 medium-centered centered-text columns'>
+      <p>Stay updated with our Newsletter!</p>
+      <a class="button boxed black" href="/" target="_blank">SUBSCRIBE (Coming soon)</a>
+    </div>
+  <div class="two spacing"></div>
+</div>

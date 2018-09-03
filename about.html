@@ -1,0 +1,67 @@
+---
+layout: default
+title: About Golf Lounge 18
+description: About Golf Lounge 18
+section_id: pages
+members:
+- name: Allen Mihai
+  position: General Manager
+  avatar: images/@stock/member-1.jpg
+  avatar_hover: images/@stock/member-1.jpg
+  socials:
+  - name: fa fa-envelope
+    url: mailto:allen@golflounge18.com
+- name: Founders
+  position: Founders
+  avatar: images/@stock/member-1.jpg
+  avatar_hover: images/@stock/member-1.jpg
+  socials:
+  - name: fa fa-envelope
+    url: mailto:info@golflounge18.com
+---
+
+<div class="full new" style="background-color: #53702D;">
+  <div class="section-title new">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h1 style="color: #fff; font-size: 2rem;" class="wow slideInDown">About Golf Lounge 18</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="full text">
+  <div class="row">
+   <div class="large-12 large-centered columns">
+     <p>Golf Lounge 18 provides a State of the art (and technology) facility to residents in and around Fairfield. We have been serving golfers since October 2018</p>
+     <p>We use the best simulator in the industry - <a href="/technology">Trackman</a></p>
+     <p>Stop by to Play, Learn, Practice and have a good time.</p>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Our Team</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="medium-4 columns">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

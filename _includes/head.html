@@ -1,18 +1,63 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{{ page.title }}</title>
-<meta name="description" content="{{ page.description }}">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  
+  <!-- Metadata -->
+  
+  <meta property="og:site_name" content="{{ site.title }}">
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icon/apple-touch-icon.png" | absolute_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/icon/favicon-32x32.png" | absolute_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/icon/favicon-16x16.png" | absolute_url }}">
-<link rel="manifest" href="{{ "/assets/icon/manifest.json" | absolute_url }}">
-<link rel="mask-icon" href="{{ "/assets/icon/safari-pinned-tab.svg" | absolute_url }}" color="#5bbad5">
-<link rel="shortcut icon" href="{{ "/assets/icon/favicon.ico" | absolute_url }}">
-<meta name="msapplication-config" content="{{ "/assets/icon/browserconfig.xml" | absolute_url }}">
-<meta name="theme-color" content="#ffffff">
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
 
-<!-- CSS -->
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | absolute_url }}" />
-<noscript><link rel="stylesheet" href="{{ "/assets/css/noscript.css" | absolute_url }}" /></noscript>
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+  {% if page.tags %}
+  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor %}
+  {% endif %}
+
+  {% if page.images %}
+  <meta content="/{{ page.images }}" property="og:image">
+  {% else %}
+  <meta content="/images/golf-lounge-18-logo.png" property="og:image">
+  {% endif %}
+
+  <!--
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@uracreative" />
+  <meta name="twitter:image:src" content="https://ura.design/{{ page.images }}" />
+  -->
+  
+  <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
+  <link href="{{ "/fonts/overpass/overpass.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/superslides.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/slick-theme.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/slick.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/linea-styles.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/linea-arrows-styles.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/all.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/responsive.css" | prepend: site.baseurl }}"/>
+
+  <script src="{{ "/bower_components/modernizr/modernizr.js" | prepend: site.baseurl }}"></script>
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Rates at Golf Lounge 18
 description: Rates at Golf Lounge 18
 sitemap:
