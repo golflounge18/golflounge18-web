@@ -58,7 +58,7 @@ body {
   background: #fff;
   color: #343a40;
   cursor: auto;
-  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -913,7 +913,7 @@ select {
       background: #EFEFEF;
       color: #222222;
       display: block;
-      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1310,7 +1310,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3059,7 +3059,7 @@ label.error {
 
 .label {
   display: inline-block;
-  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   margin-bottom: auto;
@@ -3435,7 +3435,7 @@ ul.pagination {
   .pricing-table .title {
     background-color: #333333;
     color: #EEEEEE;
-    font-family: '"Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: '"Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3443,7 +3443,7 @@ ul.pagination {
   .pricing-table .price {
     background-color: #F6F6F6;
     color: #333333;
-    font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 2rem;
     font-weight: normal;
     padding: 0.9375rem 1.25rem;
@@ -3697,7 +3697,7 @@ ul.pagination {
 
 .side-nav {
   display: block;
-  font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   list-style-position: outside;
   list-style-type: none;
   margin: 0;
@@ -3718,7 +3718,7 @@ ul.pagination {
         color: #c4ac90; }
     .side-nav li.active > a:first-child:not(.button) {
       color: #c4ac90;
-      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-weight: normal; }
     .side-nav li.divider {
       border-top: 1px solid;
@@ -3836,7 +3836,7 @@ ul.pagination {
   .sub-nav dt, .sub-nav dd, .sub-nav li {
     color: #999999;
     float: left;
-    font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: normal;
     margin-left: 1rem;
@@ -4011,7 +4011,7 @@ table {
       display: block;
       background-color: #EFEFEF;
       color: #222222;
-      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1rem;
       padding: 1rem 2rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -4314,7 +4314,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
-      font-family: "Overpass", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       padding-left: 1.25rem;
@@ -4820,7 +4820,7 @@ p {
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
   color: #343a40;
-  font-family: "Overpass";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   line-height: 1.4;

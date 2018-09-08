@@ -569,7 +569,7 @@ body {
   .title-area h1 a {
     color: #333;
     font-size: 18px;
-    font-family: "Overpass";
+    font-family: "Montserrat";
     text-transform: none;
     font-weight: 600;
     letter-spacing: 10px; }
@@ -606,14 +606,14 @@ body {
     max-width: 100%; }
 
 .top-bar-section ul li > a {
-  font-family: "Overpass";
+  font-family: "Montserrat";
   font-size: 16px;
   text-transform: none;
   letter-spacing: -0.5px; }
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
-  font-family: "Overpass";
+  font-family: "Montserrat";
   text-transform: none; }
 
 /* member */
@@ -1085,7 +1085,7 @@ post.alt .post-content.blog {
   .slide-info h1 {
     text-transform: uppercase;
     line-height: 1.2em;
-    font-family: "Overpass";
+    font-family: "Montserrat";
     font-size: 48px;
     font-weight: 300;
     color: #fff;
@@ -1617,7 +1617,7 @@ form.update-form input.button:hover {
 .modBarGraph .bars h4 {
   font-weight: normal;
   text-transform: capitalize;
-  font-family: "Overpass";
+  font-family: "Montserrat";
   margin-bottom: 10px;
   letter-spacing: 1px; }
 
@@ -1726,7 +1726,7 @@ p.blogauthor {
 }
 
 .tag-title {
-  font-family: 'Overpass',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-style: normal;
   font-size: 2.25rem;
   margin-top: 0.75rem;
@@ -1753,7 +1753,7 @@ p.blogauthor {
   padding-right: 0;
   padding: 0 1.25rem;
   margin: 0 auto 1.875rem;
-  font-family: 'Overpass',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 2;
@@ -1784,7 +1784,7 @@ p.blogauthor {
   padding-right: 0;
   margin: 0 auto 1.875rem;
   list-style: none;
-  font-family: 'Overpass',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 2;
