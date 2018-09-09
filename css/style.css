@@ -255,7 +255,7 @@ hr {
 .section-title.new {
   text-align: center;
   margin-bottom: 40px;
-  margin-top: 10px; }
+  margin-top: 40px; }
   .section-title h1 {
     color: white; }
   .section-title h2 {
@@ -581,7 +581,8 @@ body {
 
 #menu-toggler {
   padding-right: 40px;
-  margin-top: -60px;
+  padding-top: 10px;
+  margin-top: -8rem;
   position: relative; }
   #menu-toggler i {
     background: #53702D;
@@ -598,11 +599,12 @@ body {
   background: transparent;
   position: fixed;
   z-index: 99;
-  height: 4rem; }
+  height: 8rem; }
   .contain-to-grid .top-bar {
     -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     background: #fff;
+    height: 8rem;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
