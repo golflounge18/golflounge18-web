@@ -51,7 +51,7 @@
   height: 80px; }
 
 .full {
-  padding: 100px 0;
+  padding: 1px 0;
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
@@ -61,7 +61,6 @@
   padding: 100px 0px 0px 0px; }
 
 .full.new {
-  padding: 100px 0;
   height: 100px;
   background-size: cover;
   background-position: 50% 50%;
@@ -603,7 +602,6 @@ body {
 
 .contain-to-grid {
   background: transparent;
-  position: fixed;
   z-index: 99;}
   .contain-to-grid .top-bar {
     -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);

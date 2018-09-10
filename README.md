@@ -13,14 +13,26 @@ example: https://www.xgolfshelby.com/
 
 ## TODO
 - Integrate signing up with mailchip into the website
-- Set same font as Golf Lounge
+- Full screen pics with no foreground shading
+- Social media icon / links bigger
+- Fix menus - add home, rates, convert contact to hierarchy
+? Icon font for the whole website
+- Add to rates:  
+  - Kids membership
+  - Family membership
+  - Corporate memberships - reach out for memberships. 
+  ? Free 30 minute swing analysis - introductory offer. 
 - 404 must have a golf related image (see 404.html)
 - Confirm / verify that google analytics still works (is includes/tracking.html used anywhere? - add to layouts): Should use Matomo? Its free! - removed Matomo code from footer.html
 - Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag
 - All pages must have tags, title, description - Define page.tags - see head.html for use / seo!
-- Transitions need to be faster
 - Find/buy better stock photos
+- Check XGolf Shelby and San Antonio location websites. 
+- Fix desktop version
+    - Phone number at top (for desktop version)
+    - Top bar has a line through it!
+
 
 ## Getting Started
 
