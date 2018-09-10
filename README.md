@@ -15,6 +15,7 @@ example: https://www.xgolfshelby.com/
 - Integrate signing up with mailchip into the website
 - Full screen pics with no foreground shading
 - Social media icon / links bigger
+- Pages should have an image on the first 3rd of the page OR a background image
 - Fix menus - add home, rates, convert contact to hierarchy
 ? Icon font for the whole website
 - Add to rates:  
