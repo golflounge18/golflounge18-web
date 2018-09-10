@@ -47,3 +47,16 @@
     </section>
   </nav>
 </div>
+
+{% if page.title %}
+<div class="full">
+    <div class="section-title">
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="spacing"></div>
+                <h2>{{page.title}}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
