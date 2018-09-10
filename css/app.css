@@ -4226,8 +4226,7 @@ meta.foundation-mq-topbar {
         top: -1px; } }
   .top-bar .title-area {
     margin: 0;
-    position: relative;
-    height: 8rem; }
+    position: relative; }
   .top-bar .name {
     font-size: 16px;
     height: 6.25rem;
@@ -4310,7 +4309,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #333333; }
+    background: #53702D; }
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;

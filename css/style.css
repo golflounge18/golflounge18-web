@@ -580,9 +580,9 @@ body {
   color: #fff; }
 
 #top-phone-area {
-    padding-right: 40px;
+    padding-right: 10px;
     padding-top: 10px;
-    margin-top: -8rem;
+    margin-top: -8.5rem;
     position: relative; }
 
 #menu-toggler {
@@ -604,13 +604,11 @@ body {
 .contain-to-grid {
   background: transparent;
   position: fixed;
-  z-index: 99;
-  height: 8rem; }
+  z-index: 99;}
   .contain-to-grid .top-bar {
     -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
     background: #fff;
-    height: 8rem;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
