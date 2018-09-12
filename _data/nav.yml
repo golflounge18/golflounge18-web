@@ -1,5 +1,5 @@
 - name: Home
-  path: /
+  path: {{site.baseurl}}
 - name: Technology
   path: technology
 - name: About
