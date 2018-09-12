@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
                 $('.slides-container', that).children().eq(0).addClass('active');
             }, 300);
         });
-        $('#slides').superslides({animation: 'fade', hashchange: false, play: 3000});
+        $('#slides').superslides({animation: 'fade', hashchange: false, play: 4000});
         $('#slides').on('animated.slides', function () {
             $('.slides-container', this).children().removeClass('active');
             var index = $(this).superslides('current');

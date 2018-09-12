@@ -2,29 +2,21 @@
 layout: default
 section_id: home
 slides:
-- text: Play year round
-  subtitle: Including winters!
+- text: Grand Opening on October 13
+  subtitle: Join us for giveaways and specials
   overlay: overlay green
   bg_color: "#53702D"
-  image: images/golf-lounge-18-logo-splash1.png
+  image: images/grand-opening.png
   button:
-    text: Find tee time
-    url: /book
-- text: Virtual Golf, Real Fun!
-  subtitle: Fun for everyone
-  overlay: overlay grey
-  bg_color: "#c9c9c9"
-  image: images/play.png
-  button:
-    text: Rates
-    url: /rates
-- text: Best in business!
-  subtitle: Trackman simulators
+    text: Details
+    url: /qr_card
+- text: Indoor golf at its best!
+  subtitle: Trackman simulators are best in business
   button:
     text: Learn more
     url: /technology
   bg_color: "#53702D"
-  overlay: overlay green
+  overlay: overlay blue
   image: images/Luke-Donald-TM4.png
 - text: Improve your game
   subtitle: The next level awaits
@@ -34,26 +26,6 @@ slides:
   bg_color: "#53702D"
   overlay: overlay green
   image: images/teaching-bay.jpeg
-
-testimonials_left:
-  - author: Jeff Beatty - Mozilla
-    twitter: https://twitter.com/gueroJeff
-    content: “The folks at Ura were very professional in learning our expectations, planning the project, and being flexible as things changed. Add to that their commitment to work in the open and it made for a wonderful experience.”
-    avatar: images/testimonials/jeffbeatty.png
-  - author: Benjamin Kerensa  - Glucosio
-    twitter: https://twitter.com/bkerensa
-    content: “When looking for an identity for Glucosio we put our faith into Ura. With an unrivaled ability to bring ideas together into a fresh and modern branding experience we were really happy with the results.”
-    avatar: images/testimonials/benjaminkerensa.png
-
-testimonials_right:
-  - author: Justin Dorfman - Stickermule
-    twitter: https://twitter.com/jdorfman
-    content: “Ever since 'Open Source' was coined 20 years ago, a majority of projects have lacked great design. Ura is leading the way to fill that gap of Open Source Design in the community.”
-    avatar: images/testimonials/justindorfman.png
-  - author: Sara Sinclair Brody - Simply Secure
-    twitter: https://twitter.com/scouttle
-    content: “Ura understood the needs of the open-source community when we worked together creating a styleguide for the Tor Project. They were able to deliver a polished result in a large, distributed volunteer organization.”
-    avatar: images/testimonials/simplysecure.png
 ---
 
 <div class="full no-padding" style="height: 100vh;">
@@ -71,7 +43,7 @@ testimonials_right:
           </div>
           <div class="slide-left" style="background-color: {{ slide.bg_color }};">
           </div>
-          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;">
+          <div class="slide-right {{ slide.overlay }}" style="background: url({{ slide.image }}) center center no-repeat;background-size: cover;background-position: left top;">
           </div>
         </div>
       {% endfor %}
@@ -100,54 +72,10 @@ testimonials_right:
   </div>
 </div>
 
-<!--
-<div class="full">
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Testimonials</h2>
-        <p>What people say about us</p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="large-6 columns">
-      {% for testimonial in page.testimonials_left %}
-        <div class="quote wow slideInLeft" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
-          <div class="row">
-            <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
-            </div>
-            <div class="small-9 columns">
-              <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <div class="large-6 columns">
-      {% for testimonial in page.testimonials_right %}
-        <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.25 | times:forloop.index0 }}s">
-          <div class="row">
-            <div class="small-3 columns">
-              <img src="{{testimonial.avatar}}" width="102px" height="102px" alt="author">
-            </div>
-            <div class="small-9 columns">
-              <p>{{testimonial.content}}</p>
-              <a href="{{testimonial.twitter}}"><p class="author">{{testimonial.author}}</p></a>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
--->
-
 <div class="full light-grey no-padding">
   <div id="newsletter" class='row'>
     <div class='medium-10 medium-centered centered-text columns'>
+      <div class="two spacing"></div>
       <p>Signup for Offers and Updates!</p>
       <a class="button boxed black" href="/signup" target="_blank">Signup</a>
     </div>
