@@ -9,6 +9,11 @@ Website: https://ura.design/
 Theme for many xgolf centers: https://themesinfo.com/jupiter-child-wordpress-theme-rzh/latest
 example: https://www.xgolfshelby.com/
 
+## Tech notes
+* Site switches between desktop and mobile at 1025 pixel width
+    * Desktop styling: style.css
+    * mobile styling: responsive.css
+
 ==================
 
 ## TODO
