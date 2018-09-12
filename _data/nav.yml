@@ -1,3 +1,5 @@
+- name: Home
+  path: /
 - name: Technology
   path: technology
 - name: About

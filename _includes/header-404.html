@@ -49,6 +49,7 @@
 </div>
 
 {% if page.title %}
+{% if ! (page.skip_title == 'yes') %}
 <div class="full">
     <div class="section-title">
         <div class="row">
@@ -59,4 +60,14 @@
         </div>
     </div>
 </div>
+{% else %}
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
 {% endif %}
