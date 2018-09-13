@@ -18,6 +18,8 @@ example: https://www.xgolfshelby.com/
 
 ## TODO
 ? Full screen pics with no foreground shading
+- Signup page needs formatting!
+- Add signup page on Contact Us page
 - Social media icon / links bigger
 - Pages should have an image on the first 3rd of the page OR a background image
 - Fix menus - add home, rates, convert contact to hierarchy
