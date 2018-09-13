@@ -7,40 +7,6 @@ sitemap:
     lastmod: 2018-08-04
     changefreq: weekly
 ---
-## Hours of Operation
-
-We are open
-* Monday to Thursday: 7am to 10pm
-* Friday to Sunday: 7am to midnight
-
-Peak hours:
-* Monday to Thursday: 6pm to close
-* Friday: 4pm to close
-* Saturday, Sunday, Holidays and Long weekends: All day
-
-Rest everything is considered off-peak.
-
-## Events and Parties
-
-Golf Lounge 18 is the perfect place to have your next event or a get together.
-We offer up to 4 bays, TVs, speakers throughout the place.
-We can also provide a golf pro to teach mini-lessons, run contests and games,
-and address any of your event needs.
-
-We have a variety of packages, including food and drinks, and are happy to work with your budget. Please fill out this form and our events coordinator will get back to you.
-
-<< EVENT INQUIRY FORM COMING SOON >>
-
-## Memberships
-
-Membership benefits:
-* Book up to 2 weeks in advance (compared to 1 week for non-members)
-* 2 free peak hours of golf bay rentals
-* 3 free non-peak hours of golf bay rentals
-* 15% off everything
-
-Membership Cost: $250 per month with yearly commitment
-
 ## Leagues
 
 Leagues run every Wednesday from 6pm to 8pm.
