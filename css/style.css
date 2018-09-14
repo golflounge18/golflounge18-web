@@ -679,6 +679,15 @@ ul.socials {
   color: #3399d4;
   font-size: 14px; }
 
+/* contact on About page */
+.contact-details-about {
+  text-align: center; }
+.contact-details-about h3 {
+  line-height: 30px; }
+.contact-details-about i {
+  font-size: 40px;
+  color: #53702D; }
+
 /* contact */
 .contact-details {
   text-align: center;

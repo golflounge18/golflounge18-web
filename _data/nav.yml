@@ -1,8 +1,10 @@
 - name: Home
   path:
+- name: Rates
+  path: rates
 - name: Technology
   path: technology
-- name: About
+- name: About us
   path: about
 - name: Contact Us
   path: contact
