@@ -17,7 +17,6 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
-? Full screen pics with no foreground shading
 - Signup page needs formatting!
 - Need event enquiry form
 - Add signup page on Contact Us page
