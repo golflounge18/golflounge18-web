@@ -5799,18 +5799,19 @@ th.hide-for-touch {
 #mc_embed_signup input {
   border: medium none;
   color: gray;
-  font-family: times new roman;
-  font-size: 16px;
-  font-style: italic;
+  display: inline;
+  position: relative;
   margin-bottom: 10px;
   padding: 8px 10px;
   width: 300px;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 #mc_embed_signup input.email { background: #fff }
 #mc_embed_signup input.name { background: #fff}
+#mc_embed_signup input.zipcode { background: #fff}
+#mc_embed_signup input.birthday { width: 100px;background: #fff}
 #mc_embed_signup input[type="submit"] {
   background: #115B87;
   color: #fff;
