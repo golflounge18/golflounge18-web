@@ -17,14 +17,44 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
+- Expand words on the website.
+- Integrate with booking system, compare the booking system from Purnendu
 - Need event enquiry form
-- Pages should have an image on the first 3rd of the page OR a background image
+- Separate Leagues page?
+- Separate membership page
+    - Member appreciation event 3 hours on a Thursday: closest to the pin challenge, longest drive challenge - with prizes
+- Junior programs
+    - How do we make it fun for kids?
+    - Kids parties
+- Corporate memberships
+    - Platinum?: All inclusive: $25,000 per year
+    - ____ - 4 hour slot per week on a Tuesday?
+    - Employee and clients appreciation
+    - Corporate recruiting events?
+- Womens night, and specials (eg: 5i golf)
+- NFL Sunday ticket (eg: 5i golf)
+- Millitary discount
+- Events page - Upcoming events (topgolf.com/events)
+    - NFL Sunday ticket: Book 3 to 4 hours - charge an entry fees
+    - Fund raising - First Tee
+    - Line up Fund raising events
+    - FCC events?
+    - Team building
+- Can we provide / maintain a USGA Handicap for players?
 - Add to rates:  
+- Pages should have an image on the first 3rd of the page OR a background image
   - Kids membership
   - Family membership
-  - Corporate memberships - reach out for memberships. 
-  ? Free 30 minute swing analysis - introductory offer.
+  - Birthday parties
+  - Holiday celebrations?
+  - Full facility buyout
+  ? November offer? Free 30 minute swing analysis - introductory offer.
   ? Active Military discount 
+- Lessons page
+    - Why take lessons on trackman?
+    - Need photo of Allen teaching a kid - lesson in action
+    - Group lessons only on off-peak days
+    - Need pics and bios of teaching instructors
 - 404 must have a golf related image (see 404.html)
 - Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag
