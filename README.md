@@ -17,7 +17,6 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
-- Signup page needs formatting!
 - Need event enquiry form
 - Add signup page on Contact Us page
 - Social media icon / links bigger
