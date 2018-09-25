@@ -26,6 +26,7 @@ example: https://www.xgolfshelby.com/
 - Junior programs
     - How do we make it fun for kids?
     - Kids parties
+    - high performance junior golfers.
 - Corporate memberships
     - Platinum?: All inclusive: $25,000 per year
     - ____ - 4 hour slot per week on a Tuesday?
@@ -55,6 +56,9 @@ example: https://www.xgolfshelby.com/
     - Need photo of Allen teaching a kid - lesson in action
     - Group lessons only on off-peak days
     - Need pics and bios of teaching instructors
+    - Trackman makes coaching more fun and it enables us to get better results with students faster - quote from instructor
+- Play/Learn
+    - Spicing up the coaching sessions with supervised playing
 - 404 must have a golf related image (see 404.html)
 - Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag

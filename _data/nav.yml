@@ -1,5 +1,9 @@
 - name: Home
   path:
+- name: Lessons
+  path: learn
+- name: Junior golf
+  path: junior_golf
 - name: Rates
   path: rates
 - name: Technology
