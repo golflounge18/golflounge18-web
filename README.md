@@ -18,11 +18,7 @@ example: https://www.xgolfshelby.com/
 
 ## TODO
 - Need event enquiry form
-- Add signup page on Contact Us page
-- Social media icon / links bigger
 - Pages should have an image on the first 3rd of the page OR a background image
-- Fix menus - add home, rates, convert contact to hierarchy
-? Icon font for the whole website
 - Add to rates:  
   - Kids membership
   - Family membership
@@ -30,7 +26,6 @@ example: https://www.xgolfshelby.com/
   ? Free 30 minute swing analysis - introductory offer.
   ? Active Military discount 
 - 404 must have a golf related image (see 404.html)
-- Confirm / verify that google analytics still works (is includes/tracking.html used anywhere? - add to layouts): Should use Matomo? Its free! - removed Matomo code from footer.html
 - Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag
 - All pages must have tags, title, description - Define page.tags - see head.html for use / seo!
