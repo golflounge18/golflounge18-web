@@ -650,6 +650,9 @@ body {
   margin-bottom: 10px;
   font-size: 16px; }
 
+.member p.description {
+  font-size: 0.8rem;}
+
 /*socials*/
 ul.socials {
   list-style: none;

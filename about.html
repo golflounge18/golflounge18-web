@@ -4,17 +4,35 @@ title: Welcome to Golf Lounge 18
 description: About Golf Lounge 18
 section_id: pages
 members:
+- name: Jacob Howes
+  position: Social Media ninja
+  avatar: images/jacob_howes.png
+  avatar_hover: images/jacob_howes.png
+  description: Jacob is a student-athlete, Majoring in Business Administration Merrimack College. He assists with the day to day marketing operations and loves golfing in his free time.
+  socials:
+  - name: fa fa-envelope
+    url: mailto:info@golflounge18.com
 - name: Allen Mihai
   position: General Manager
   avatar: images/@stock/member-1.jpg
   avatar_hover: images/@stock/member-1.jpg
+  description: This dude is responsible for running the place, in general.
   socials:
   - name: fa fa-envelope
     url: mailto:allen@golflounge18.com
-- name: Founders
-  position: Founders
+- name: Michael Dominici
+  position: Pro #1
   avatar: images/@stock/member-1.jpg
   avatar_hover: images/@stock/member-1.jpg
+  description: Cool dude! pro at Stanwich gold club in Greenwich.
+  socials:
+  - name: fa fa-envelope
+    url: mailto:info@golflounge18.com
+- name: The 3 Amigos
+  position: Founders
+  avatar: images/3a.png
+  avatar_hover: images/3a.png
+  description: We wanted a place like this to exist in the area. You are welcome!
   socials:
   - name: fa fa-envelope
     url: mailto:info@golflounge18.com
@@ -30,11 +48,40 @@ members:
     </div>
   </div>
   <div class="row">
-   <div class="large-12 large-centered columns">
+    <div class="medium-10 medium-centered columns">
      <p>Golf Lounge 18 provides a State of the art (and technology) facility to residents in and around Fairfield. We have been serving golfers since October 2018</p>
      <p>Experience the best simulators in the industry - <a href="/technology">Trackman</a></p>
      <p>Come over to Play, Learn, Practice and have a good time.</p>
     </div>
+  </div>
+
+  <div class="two spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Meet the Team</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+    <div class="medium-4 columns">
+      <div class="member">
+        <img src="{{site.url}}/{{member.avatar}}" alt="">
+        <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+        <div class="member-info">
+          <h4>{{member.name}}</h4>
+          <p class="position">{{member.position}}</p>
+          <p class="description">{{member.description}}</p>
+          <ul class="socials">
+            {% for social in member.socials %}
+            <li><a href="{{social.url}}"><i class="{{social.name}}"></i></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
   <div class="section-title">
@@ -101,7 +148,7 @@ members:
     </div>
   </div>
   <div class="row">
-    <div class="large-12 large-centered columns">
+    <div class="medium-10 medium-centered columns">
       <p>
         We are open
         <ul>
@@ -118,33 +165,5 @@ members:
         </ul>
       </p>
     </div>
-  </div>
-
-  <div class="two spacing"></div>
-  <div class="section-title">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
-        <h2>Meet the Team</h2>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    {% for member in page.members %}
-      <div class="medium-4 columns">
-        <div class="member">
-          <img src="{{site.url}}/{{member.avatar}}" alt="">
-          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
-          <div class="member-info">
-            <h4>{{member.name}}</h4>
-            <p class="position">{{member.position}}</p>
-            <ul class="socials">
-              {% for social in member.socials %}
-                <li><a href="{{social.url}}"><i class="{{social.name}}"></i></a></li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
   </div>
 </div>
