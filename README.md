@@ -17,6 +17,10 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
+- Carousel ideas
+    - Play, Practice, Hangout: Not your father's golf club
+    - Play smarter: Improve your game on real courses like St. Andrews
+    - Practice smarter: Learn how latest technology can improve your game
 - Expand words on the website.
 - Integrate with booking system, compare the booking system from Purnendu
 - Need event enquiry form
@@ -34,6 +38,7 @@ example: https://www.xgolfshelby.com/
     - Corporate recruiting events?
 - Womens night, and specials (eg: 5i golf)
 - NFL Sunday ticket (eg: 5i golf)
+    - The best place to watch Football
 - Millitary discount
 - Events page - Upcoming events (topgolf.com/events)
     - NFL Sunday ticket: Book 3 to 4 hours - charge an entry fees
