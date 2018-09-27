@@ -661,6 +661,7 @@ ul.socials {
     display: inline-block;
     padding: 0 5px; }
     ul.socials li a {
+      font-size: 20px;
       color: #333; }
     ul.socials li a:hover {
       color: #53702D; }
