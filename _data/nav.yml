@@ -1,11 +1,13 @@
 - name: Home
   path:
-- name: Lessons
-  path: learn
+- name: Events
+  path: events
 - name: Junior golf
   path: junior_golf
 - name: Rates
   path: rates
+- name: Lessons
+  path: learn
 - name: Technology
   path: technology
 - name: About us
