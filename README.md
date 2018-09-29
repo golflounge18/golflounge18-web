@@ -17,6 +17,9 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
+- Add a feedback form
+- Add testimonials
+    - This is great! I am never slowed down by a slow group in front of me! - Ajay
 - Carousel ideas
     - Play, Practice, Hangout: Not your father's golf club
     - Play smarter: Improve your game on real courses like St. Andrews
