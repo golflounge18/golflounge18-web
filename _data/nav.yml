@@ -1,6 +1,6 @@
 - name: Home
   path:
-- name: Reservation
+- name: Reservations
   path: book
 - name: Junior golf
   path: junior_golf
