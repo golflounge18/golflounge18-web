@@ -17,6 +17,10 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
+- Safety rules - Ajay
+- Booking
+    - Book time two weeks in advance
+    - Cancellation upto 24 hours in advance
 - Add a feedback form
 - Add testimonials
     - This is great! I am never slowed down by a slow group in front of me! - Ajay
