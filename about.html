@@ -4,19 +4,11 @@ title: Welcome to Golf Lounge 18
 description: About Golf Lounge 18
 section_id: pages
 members:
-- name: Jacob Howes
-  position: Social Media ninja
-  avatar: images/jacob_howes.png
-  avatar_hover: images/jacob_howes.png
-  description: Jacob is a student-athlete, Majoring in Business Administration Merrimack College. He assists with the day to day marketing operations and loves golfing in his free time.
-  socials:
-  - name: fa fa-envelope
-    url: mailto:info@golflounge18.com
 - name: Allen Mihai
   position: General Manager
   avatar: images/@stock/member-1.jpg
   avatar_hover: images/@stock/member-1.jpg
-  description: This dude is responsible for running the place, in general.
+  description: Allen will be running the day to day operations at Golf Lounge 18. He comes from a sports background with experience in business management and swing instruction for all levels. Whether you’re looking to improve your swing on Trackman, or need help building a format for your next company tournament, Allen is the guy to speak to.
   socials:
   - name: fa fa-envelope
     url: mailto:allen@golflounge18.com
@@ -40,6 +32,14 @@ members:
   socials:
   - name: fa fa-envelope
     url: mailto:info@golflounge18.com
+- name: Jacob Howes
+  position: Social Media ninja
+  avatar: images/jacob_howes.png
+  avatar_hover: images/jacob_howes.png
+  description: Jacob is a student-athlete, Majoring in Business Administration Merrimack College. He assists with the day to day marketing operations and loves golfing in his free time.
+  socials:
+    - name: fa fa-envelope
+      url: mailto:info@golflounge18.com
 - name: The 3 Amigos
   position: Founders
   avatar: images/3a.png
@@ -63,9 +63,7 @@ members:
   </div>
   <div class="row">
     <div class="medium-10 medium-centered columns">
-     <p>Golf Lounge 18 provides a State of the art (and technology) facility to residents in and around Fairfield. We have been serving golfers since October 2018</p>
-     <p>Experience the best simulators in the industry - <a href="/technology">Trackman</a></p>
-     <p>Come over to Play, Learn, Practice and have a good time.</p>
+      {% include desc.html %}
     </div>
   </div>
 
@@ -141,7 +139,7 @@ members:
         <a class="work space" href="tel:{{site.phone}}">
           <i class='work space fa fa-phone'></i>
           <div class="info center">
-            Call us - {{site.phone}}
+            {{site.phone}}
           </div>
         </a>
 
@@ -164,18 +162,10 @@ members:
   <div class="row">
     <div class="medium-10 medium-centered columns">
       <p>
-        We are open
+        We are open:
         <ul>
           <li>Monday to Thursday: 7am to 10pm</li>
           <li>Friday to Sunday: 7am to midnight</li>
-        </ul>
-      </p>
-      <p>
-        Peak hours:
-        <ul>
-          <li>Monday to Thursday: 6pm to close</li>
-          <li>Friday: 4pm to close</li>
-          <li>Saturday, Sunday, Holidays and Long weekends: All day</li>
         </ul>
       </p>
     </div>
