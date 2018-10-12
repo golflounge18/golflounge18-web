@@ -2,8 +2,6 @@
   path:
 - name: Reservations
   path: book
-- name: Junior golf
-  path: junior_golf
 - name: Rates
   path: rates
 - name: Lessons
