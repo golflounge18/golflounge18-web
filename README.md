@@ -17,27 +17,18 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
-- Safety rules - Ajay
-- Booking
-    - Book time two weeks in advance
-    - Cancellation upto 24 hours in advance
 - Add a feedback form
-- Add testimonials
+- Need event enquiry form
+- Add testimonials - Uncomment / Fix / Get testimonials on index.html
     - This is great! I am never slowed down by a slow group in front of me! - Ajay
+    - Trackman makes coaching more fun and it enables us to get better results with students faster - quote from instructor
 - Carousel ideas
     - Play, Practice, Hangout: Not your father's golf club
     - Play smarter: Improve your game on real courses like St. Andrews
     - Practice smarter: Learn how latest technology can improve your game
-- Expand words on the website.
-- Integrate with booking system, compare the booking system from Purnendu
-- Need event enquiry form
 - Separate Leagues page?
 - Separate membership page
     - Member appreciation event 3 hours on a Thursday: closest to the pin challenge, longest drive challenge - with prizes
-- Junior programs
-    - How do we make it fun for kids?
-    - Kids parties
-    - high performance junior golfers.
 - Corporate memberships
     - Platinum?: All inclusive: $25,000 per year
     - ____ - 4 hour slot per week on a Tuesday?
@@ -46,19 +37,16 @@ example: https://www.xgolfshelby.com/
 - Womens night, and specials (eg: 5i golf)
 - NFL Sunday ticket (eg: 5i golf)
     - The best place to watch Football
-- Millitary discount
+- Millitary specials
+- Can we provide / maintain a USGA Handicap for players?
 - Events page - Upcoming events (topgolf.com/events)
     - NFL Sunday ticket: Book 3 to 4 hours - charge an entry fees
     - Fund raising - First Tee
     - Line up Fund raising events
     - FCC events?
     - Team building
-- Can we provide / maintain a USGA Handicap for players?
-- Add to rates:  
 - Pages should have an image on the first 3rd of the page OR a background image
-  - Kids membership
-  - Family membership
-  - Birthday parties
+  - Young player / aspiring player membership
   - Holiday celebrations?
   - Full facility buyout
   ? November offer? Free 30 minute swing analysis - introductory offer.
@@ -67,19 +55,15 @@ example: https://www.xgolfshelby.com/
     - Why take lessons on trackman?
     - Need photo of Allen teaching a kid - lesson in action
     - Group lessons only on off-peak days
-    - Need pics and bios of teaching instructors
-    - Trackman makes coaching more fun and it enables us to get better results with students faster - quote from instructor
 - Play/Learn
     - Spicing up the coaching sessions with supervised playing
 - 404 must have a golf related image (see 404.html)
-- Uncomment / Fix / Get testimonials on index.html
 - All images must have an alt tag
 - All pages must have tags, title, description - Define page.tags - see head.html for use / seo!
 - Find/buy better stock photos
 - Check XGolf Shelby and San Antonio location websites. 
 - Fix desktop version
     - Phone number at top (for desktop version)
-    - Top bar has a line through it!
 
 
 ## Getting Started
