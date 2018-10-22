@@ -2,25 +2,6 @@
 layout: default
 title: Leagues at Golf Lounge 18
 description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
-courses:
-- name: St. Andrews, Old Course (Scotland)
-  description: November 5-11
-  image: images/st-andrews.png
-- name: The Grove (UK)
-  description: November 12-18
-  image: images/the-grove.png
-- name: Innisbrook, Copperhead (Florida)
-  description: November 19-25
-  image: images/innisbrook.png
-- name: Sea Island, Seaside (Georgia)
-  description: December 3-9
-  image: images/sea-island-seaside.png
-- name: Sedgefield Country Club (NC)
-  description: December - 10-16
-  image: images/sedgefield.png
-- name: PGA National Golf Course, Champion (Florida)
-  description: Playoffs - December 17-23
-  image: images/pga-national.png
 ---
 
 <div class="full text">
@@ -37,12 +18,17 @@ courses:
     <div class="row">
         <div class="medium-10 medium-centered columns">
 
-            <p>Leagues <strong>Start in November</strong>, and skip the week of Thanksgiving, and end before Christmas.</p>
-
-            <div class="one spacing"></div>
         </div>
 
-        <div class="row">
+        <div class="row" style="background-color:lightgray">
+            <div class="one spacing"></div>
+
+            <div class="medium-10 medium-centered columns">
+                <p>Leagues <strong>Start in November</strong>, and skip the week of Thanksgiving, and end before Christmas.</p>
+            </div>
+
+            <div class="one spacing"></div>
+
             <div class="medium-10 medium-centered columns">
                 <div class="large-3 columns">
                     <div class="contact-details" style="background-color:lightblue;padding: 10px; border: 2px solid;">
@@ -75,7 +61,7 @@ courses:
     <div class="row">
         <div class="one spacing"></div>
         <div class="medium-10 medium-centered columns">
-            <center><a class="button boxed" href="#">Register to participate in League today</a></center>
+            <center><a class="button boxed" href="#register">Register to participate in League today</a></center>
         </div>
         <div class="one spacing"></div>
     </div>
@@ -83,7 +69,7 @@ courses:
     <div class="row">
         <div class="medium-10 medium-centered columns">
             <div class="large-6 columns">
-                <div class="quote">
+                <div class="quote reverse">
                     <p>
                         Teams battle head to head in a 6 week, matchplay format on the world’s best
                         virtual golfing simulators. Does your team have what it takes to be crowned League Champion?
@@ -96,7 +82,8 @@ courses:
                     </p>
 
                     <p>
-                        Register your team (of two) for $375, or Register as an individual for $200 (We will pair you up)
+                        <strong>Register your team</strong> (of two) for $375, or
+                        Register as an individual for $200 (We will pair you up)
                     </p>
 
                     <p><strong>Note:</strong> If you cannot play at preferred times, please let us know when you can play</p>
@@ -113,25 +100,14 @@ courses:
         </div>
     </div>
 
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <h4>Course list for the League</h4>
-        </div>
-        <div class="medium-10 medium-centered columns">
-            <p>Each of the 6 league games will be <strong>played on different course</strong>:</p>
-            <div class="one spacing"></div>
+    <a name="register"></a>
 
-            {% for course in page.courses %}
-            <div class="medium-4 columns">
-                <div class="member">
-                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
-                    <div class="member-info">
-                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong>:</p>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
+    <div class="row">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <center><a class="button boxed" href="/leagues-courses">Click here for course list</a></center>
         </div>
+        <div class="one spacing"></div>
     </div>
 
     <div class="row">

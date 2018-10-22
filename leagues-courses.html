@@ -1,0 +1,55 @@
+---
+layout: default
+title: Courses for Leagues at Golf Lounge 18
+description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
+courses:
+- name: St. Andrews, Old Course (Scotland)
+  description: November 5-11
+  image: images/st-andrews.png
+- name: The Grove (UK)
+  description: November 12-18
+  image: images/the-grove.png
+- name: Innisbrook, Copperhead (Florida)
+  description: November 19-25
+  image: images/innisbrook.png
+- name: Sea Island, Seaside (Georgia)
+  description: December 3-9
+  image: images/sea-island-seaside.png
+- name: Sedgefield Country Club (NC)
+  description: December - 10-16
+  image: images/sedgefield.png
+- name: PGA National Golf Course, Champion (Florida)
+  description: Playoffs - December 17-23
+  image: images/pga-national.png
+---
+
+<div class="full text">
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <h4>Course list for the League starting November 6</h4>
+        </div>
+        <div class="medium-10 medium-centered columns">
+            <p>Each of the 6 league games will be <strong>played on different course</strong>:</p>
+            <div class="one spacing"></div>
+
+            {% for course in page.courses %}
+            <div class="medium-4 columns">
+                <div class="member">
+                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
+                    <div class="member-info">
+                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong>:</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <center><a class="button boxed" href="leagues#register">Register to participate in League today</a></center>
+        </div>
+    </div>
+</div>
