@@ -29,11 +29,70 @@ courses:
             <div class="medium-10 medium-centered columns">
                 <h2>Leagues forming now</h2>
                 <p>
-                    Leagues for Mens, Womens, Juniors and Seniors.
+                    Do you have what it takes be the winners of the first Golf Lounge 18 league?
                 </p>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+
+            <p>Leagues <strong>Start in the first week of November</strong>, and skip the week of Thanksgiving, and end before Christmas.</p>
+
+            <div class="one spacing"></div>
+        </div>
+
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <div class="large-3 columns">
+                    <div class="contact-details" style="background-color:lightblue;padding: 10px">
+                        <h4>Mens</h4>
+                        <p>November 6<br>Tues 6-9pm</p>
+                    </div>
+                </div>
+                <div class="large-3 columns">
+                    <div class="contact-details" style="background-color:lightblue;padding: 10px">
+                        <h4>Womens</h4>
+                        <p>November 6<br>Tues 10am-1pm</p>
+                    </div>
+                </div>
+                <div class="large-3 columns">
+                    <div class="contact-details" style="background-color:lightblue;padding: 10px">
+                        <h4>Juniors</h4>
+                        <p>November 7<br>Wed 4-7pm</p>
+                    </div>
+                </div>
+                <div class="large-3 columns">
+                    <div class="contact-details" style="background-color:lightblue;padding: 10px">
+                        <h4>Seniors</h4>
+                        <p>November 7<br>Wed 10am-1pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <h4>Course list for the League</h4>
+        </div>
+        <div class="medium-10 medium-centered columns">
+            <p>League runs for <strong>6 weeks</strong>. Each league game will be <strong>played on different course</strong>:</p>
+            <div class="one spacing"></div>
+
+            {% for course in page.courses %}
+            <div class="medium-4 columns">
+                <div class="member">
+                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
+                    <div class="member-info">
+                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong>:</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
     <div class="row">
         <div class="medium-10 medium-centered columns">
             <h4>League rules</h4>
@@ -50,24 +109,6 @@ courses:
                 the winning team gets 3 hours of Bay time. The runner up team gets 1 hour.</p>
 
             <div class="one spacing"></div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <h4>Course list for the League</h4>
-        </div>
-        <div class="medium-10 medium-centered columns">
-            {% for course in page.courses %}
-            <div class="medium-4 columns">
-                <div class="member">
-                    <div class="member-info">
-                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong>:</p>
-                    </div>
-                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
-                </div>
-            </div>
-            {% endfor %}
         </div>
     </div>
 
