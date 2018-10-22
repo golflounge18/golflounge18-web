@@ -6,10 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Golf Lounge 18
-email: info@golflounge18.com
-description: > # this means to ignore newlines until "baseurl:"
-  A premier Golfing facility at Sportsplex at 85 Mill Plain Rd, Fairfield, CT 06824
+title: "Golf Lounge 18"
+description: "Fairfield's premier indoor Golfing facility at Sportsplex at 85 Mill Plain Rd, Fairfield, CT 06824"
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -19,7 +17,7 @@ facebook:      golflounge18
 instagram:     golflounge18
 gmap:          Fz94DRLaLfT2
 
-location:      85 Mill Plain Rd, Fairfield, CT 06824
+location:      "85 Mill Plain Rd, Fairfield, CT 06824"
 phone:         203-307-5354
 email:         info@golflounge18.com
 
