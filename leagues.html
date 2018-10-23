@@ -2,6 +2,25 @@
 layout: default
 title: Leagues at Golf Lounge 18
 description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
+courses:
+- name: St. Andrews, Old Course (Scotland)
+  description: November 5-11
+  image: images/st-andrews.png
+- name: The Grove (UK)
+  description: November 12-18
+  image: images/the-grove.png
+- name: Innisbrook, Copperhead (Florida)
+  description: November 19-25
+  image: images/innisbrook.png
+- name: Sea Island, Seaside (Georgia)
+  description: December 3-9
+  image: images/sea-island-seaside.png
+- name: Sedgefield Country Club (NC)
+  description: December - 10-16
+  image: images/sedgefield.png
+- name: PGA National Golf Course, Champion (Florida)
+  description: Playoffs - December 17-23
+  image: images/pga-national.png
 ---
 
 <div class="full text">
@@ -15,18 +34,14 @@ description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
             </div>
         </div>
     </div>
-    <!--
-    <div class="row">
-        <div class="row" style="background-color:lightgray">
-            <div class="one spacing"></div>
 
-            <div class="medium-10 medium-centered columns">
-                <p style="text-align: center">League <strong>starts on November 6/7</strong>, skip the week of Thanksgiving, and end before Christmas</p>
-            </div>
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <p style="text-align: center">
+                <a class="button boxed" href="#register">Register to participate in League today</a>
+            </p>
         </div>
-        <div class="one spacing"></div>
     </div>
-    -->
 
     <div class="row" style="
                         background-image: url('images/bg-bays.jpeg');
@@ -70,6 +85,28 @@ description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
         </div>
     </div>
 
+    <div class="full text">
+
+        <div class="row" style="background-color: lightcyan">
+            <div class="one spacing"></div>
+            <div class="medium-10 medium-centered columns">
+                <h3 style="text-align: center">Course list for the League</h3>
+            </div>
+            <div class="medium-10 medium-centered columns">
+                {% for course in page.courses %}
+                <div class="medium-4 columns">
+                    <div class="member">
+                        <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
+                        <div class="member-info">
+                            <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
     <a name="register"></a>
 
     <div class="row">
@@ -77,8 +114,10 @@ description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
         <div class="medium-10 medium-centered columns">
             <p style="text-align: center">
                 <a class="button boxed">Leader board (after league start)</a>
+                <!--
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a class="button boxed" href="/leagues-courses">Click here for course list</a>
+                -->
             </p>
         </div>
     </div>
