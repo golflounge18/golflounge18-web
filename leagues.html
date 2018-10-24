@@ -24,50 +24,57 @@ courses:
 ---
 
 <div class="full text">
-    <div class="section-title">
+    <div class="section-title" style="
+                        background-image: url('images/bg-bays.jpeg');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+        <div class="row">
+            <div class="one spacing"></div>
+            <div class="medium-10 medium-centered columns">
+                <h3 style="color: #ffffff">WHO WILL BE THE FIRST GL18 LEAGUE CHAMPOINS?</h3>
+                <p style="font-size: 1.1rem; color: #ffffff">
+                    TEAMS OF 2 COMPETE IN A SIX WEEK LEAGUE
+                </p>
+            </div>
+        </div>
+
         <div class="row">
             <div class="medium-10 medium-centered columns">
-                <h3>WHO WILL BE THE FIRST GL18 LEAGUE CHAMPOINS?</h3>
-                <p style="font-size: 1.1rem">
-                    TEAMS OF 2 COMPETE IN A SIX WEEK LEAGUE
+                <p style="text-align: center">
+                    <a class="button boxed" href="#register">Register to participate in League</a>
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="background-color:lightcyan;">
         <div class="medium-10 medium-centered columns">
-            <p style="text-align: center">
-                <a class="button boxed" href="#register">Register to participate in League today</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="row" style="
-                        background-image: url('images/bg-bays.jpeg');
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: cover;">
-        <div class="one spacing"></div>
-        <div class="medium-10 medium-centered columns">
+            <div class="one spacing"></div>
             <div class="large-6 columns">
-                <div class="quote reverse" style="background-color:lightcyan; padding: 10px; border: 2px solid; color: #000; opacity: 0.7">
-                    <div class="two spacing"></div>
+                <div class="quote reverse" style="background-color:lightyellow; padding: 10px; border: 2px solid; color: #000; opacity: 0.7">
+                    <div class="one spacing"></div>
+                    <h4 style="text-align: center"><u>Information:</u></h4>
+
+                    <p>
+                        <strong>Leagues </strong> available for Mens, Womens, Juniors, Seniors.
+                    </p>
+
                     <p><strong>Duration - </strong>Six weeks</p>
 
-                    <p><strong>Start Date - </strong>November 6/7, skips Thanksgiving week.</p>
+                    <p><strong>Start Date - </strong>November 7/8, skips Thanksgiving week.</p>
 
-                    <p><strong>Times - </strong>Tues/Wed 6-9pm is preferred.
+                    <p><strong>Times - </strong>Listed on the Registration form.
                         <span style="font-size: 0.8rem">(If you cannot play at this time, contact us to re-schedule)</span></p>
 
                     <p><strong>Championship play - </strong>Week of December 17</p>
 
-                    <p><strong>League dues - </strong>$250 per person</p>
+                    <p><strong>League dues - </strong>$250 per person</p> ($200 per player for Juniors)
                 </div>
             </div>
 
             <div class="large-6 columns">
-                <div class="quote reverse" style="background-color:#B7E87D;padding: 10px; border: 2px solid; color: #000; opacity: 0.7">
+                <div class="quote reverse" style="background-color:white;padding: 10px; border: 2px solid; color: #000; opacity: 0.7">
                     <div class="one spacing"></div>
                     <h4 style="text-align: center"><u>LEAGUE FORMAT AND RULES</u></h4>
                     <ul>
@@ -85,25 +92,33 @@ courses:
         </div>
     </div>
 
-    <div class="full text">
-
-        <div class="row" style="background-color: lightcyan">
-            <div class="one spacing"></div>
+    <div class="row">
+        <div class="one spacing"></div>
+        <div class="row">
             <div class="medium-10 medium-centered columns">
-                <h3 style="text-align: center">Course list for the League</h3>
+                <p style="text-align: center">
+                    <a class="button boxed" href="#register">Register to participate in League</a>
+                </p>
             </div>
-            <div class="medium-10 medium-centered columns">
-                {% for course in page.courses %}
-                <div class="medium-4 columns">
-                    <div class="member">
-                        <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
-                        <div class="member-info">
-                            <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
-                        </div>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: lightgray">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <h3 style="text-align: center">Course list for the League</h3>
+        </div>
+        <div class="medium-10 medium-centered columns">
+            {% for course in page.courses %}
+            <div class="medium-4 columns">
+                <div class="member">
+                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
+                    <div class="member-info">
+                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
                     </div>
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div>
     </div>
 
@@ -134,7 +149,7 @@ courses:
     <div class="row">
         <div class="medium-10 medium-centered columns">
             <p>
-                <script type="text/javascript" src="https://forms.zohopublic.com/golflounge18/form/EventRegistration/jsperma/CADSzwKIcpDQRd_pGMpA5cptEThNMetxtwbkIgsSbvc?height=1700px&width=100%25" id="ZFScript"></script>
+                <script type="text/javascript" src="https://forms.zohopublic.com/golflounge18/form/EventRegistration/jsperma/CADSzwKIcpDQRd_pGMpA5cptEThNMetxtwbkIgsSbvc?height=1820px&width=100%25" id="ZFScript"></script>
             </p>
             <div class="one spacing"></div>
         </div>
