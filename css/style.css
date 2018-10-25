@@ -186,7 +186,7 @@
   height: 100%;
   display: block;
   z-index:0;
-  background-color: rgba(83, 112, 45, 0.3);
+  background-color: rgba(83, 112, 45, 0.8);
 }
 
 .no-padding {
