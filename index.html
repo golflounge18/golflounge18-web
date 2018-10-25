@@ -14,7 +14,7 @@ slides:
     url: /leagues
 - text: Book your tee times!
   subtitle: Reserve your bay now!
-  overlay: overlay green
+  overlay: overlay blue
   bg_color: "#53702D"
   image: images/golf-lounge-18-bays.jpg
   button:
@@ -34,7 +34,7 @@ slides:
     text: Lessons
     url: /learn
   bg_color: "#53702D"
-  overlay: overlay green
+  overlay: overlay blue
   image: images/fix_grip.jpg
 ---
 
@@ -43,7 +43,7 @@ slides:
     <div class="slides-container">
       {% for slide in page.slides %}
         <div class="slide">
-          <div class="slide-info">
+          <div class="slide-info {{ slide.overlay }}">
             <p>{{ slide.title }}</p>
             <h1>{{ slide.text }}</h1>
             <div class="one spacing"></div>
