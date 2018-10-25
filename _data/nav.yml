@@ -1,11 +1,11 @@
 - name: Home
   path:
+- name: Leagues
+  path: leagues
 - name: Reservations
   path: book
 - name: Rates
   path: rates
-- name: Lessons
-  path: learn
 - name: Technology
   path: technology
 - name: About us
