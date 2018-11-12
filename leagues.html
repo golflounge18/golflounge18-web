@@ -40,13 +40,24 @@ courses:
                 </p>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="medium-10 medium-centered columns">
-                <p style="text-align: center">
-                    <a class="button boxed" href="#register">Register to participate in League</a>
-                </p>
+    <div class="row" style="background-color: lightgray">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <h3 style="text-align: center">Course list for the League</h3>
+        </div>
+        <div class="medium-10 medium-centered columns">
+            {% for course in page.courses %}
+            <div class="medium-4 columns">
+                <div class="member">
+                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
+                    <div class="member-info">
+                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
+                    </div>
+                </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 
@@ -96,69 +107,6 @@ courses:
                     -->
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="one spacing"></div>
-        <div class="row">
-            <div class="medium-10 medium-centered columns">
-                <p style="text-align: center">
-                    <a class="button boxed" href="#register">Register to participate in League</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="background-color: lightgray">
-        <div class="one spacing"></div>
-        <div class="medium-10 medium-centered columns">
-            <h3 style="text-align: center">Course list for the League</h3>
-        </div>
-        <div class="medium-10 medium-centered columns">
-            {% for course in page.courses %}
-            <div class="medium-4 columns">
-                <div class="member">
-                    <img src="{{site.url}}/{{course.image}}" alt="{{course.name}}">
-                    <div class="member-info">
-                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-
-    <a name="register"></a>
-
-    <div class="row">
-        <div class="one spacing"></div>
-        <div class="medium-10 medium-centered columns">
-            <p style="text-align: center">
-                <a class="button boxed">Leader board (after league start)</a>
-                <!--
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="button boxed" href="/leagues-courses">Click here for course list</a>
-                -->
-            </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <p>
-            <center>Have a question before you book? Contact us at <a href="mailto:{{site.email}}"><u>{{site.email}}</u></a></center>
-            </p>
-        </div>
-        <div class="one spacing"></div>
-    </div>
-
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <p>
-                <script type="text/javascript" src="https://forms.zohopublic.com/golflounge18/form/EventRegistration/jsperma/CADSzwKIcpDQRd_pGMpA5cptEThNMetxtwbkIgsSbvc?height=2100px&width=100%25" id="ZFScript"></script>
-            </p>
-            <div class="one spacing"></div>
         </div>
     </div>
 
