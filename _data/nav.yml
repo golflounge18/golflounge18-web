@@ -1,11 +1,11 @@
-- name: Home
-  path:
-- name: Leagues
-  path: leagues
+- name: Gift cards
+  path: gift
 - name: Reservations
   path: book
 - name: Rates
   path: rates
+- name: Leagues
+  path: leagues
 - name: Technology
   path: technology
 - name: About us
