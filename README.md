@@ -17,6 +17,7 @@ example: https://www.xgolfshelby.com/
 ==================
 
 ## TODO
+- Redo website with styling from https://trackmangolf.com/what-we-track
 - Add a feedback form
 - Need event enquiry form
 - Add testimonials - Uncomment / Fix / Get testimonials on index.html
