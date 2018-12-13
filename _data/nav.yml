@@ -5,7 +5,7 @@
   children:
     - name: Register for Jan League
       path: leagues
-    - name: Leaderboard for Fall Lesague
+    - name: Leaderboard for Fall Leagues
       path: leagues-201811
 - name: Reservations
   path: book
