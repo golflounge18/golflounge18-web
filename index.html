@@ -16,7 +16,7 @@ slides:
   subtitle: Tee off the new year right
   bg_color: "#3399D4"
   overlay: overlay blue
-  image: images/ppl_playing.jpg
+  image: images/playtime.jpg
   button:
     text: Register your team
     url: /leagues
@@ -59,9 +59,6 @@ slides:
     <div class="slides-container">
       {% for slide in page.slides %}
         <div class="slide">
-
-
-
           <div class="slide-info">
             <p>{{ slide.title }}</p>
             <h1>{{ slide.text }}</h1>
@@ -72,8 +69,6 @@ slides:
             <a href="{{ slide.button.url }}" {{slide.button.launch_new}} class="button boxed">{{ slide.button.text }}</a>
             {% endif %}
           </div>
-
-
           <div class="slide-full"
                style="background: url({{ slide.image }}) center center no-repeat;
                background-size: cover;background-position: top;">
