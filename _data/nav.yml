@@ -9,7 +9,7 @@
       path: leagues-201811
 - name: Reservations
   path: book
-- name: Rates
+- name: Lessons & Rates
   path: rates
 - name: Trackman
   path: technology

@@ -1130,18 +1130,25 @@ post.alt .post-content.blog {
 /* slide */
 .slide-info {
   position: absolute;
-  width: 30%;
+  width: 100%;
   top: 20%;
-  z-index: 2;
+  text-align: center;
+  /*
+  align-content: center;
+  align-items: center;
+  alignment: center;
   left: 11%;
+  */
+  z-index: 2;
   }
   .slide-info h1 {
     text-transform: uppercase;
     line-height: 1.2em;
     font-family: "Montserrat";
     font-size: 48px;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 700;
+    /*color: #fff;*/
+    color: #F04B00;
     letter-spacing: 1px;
     opacity: 0;
     -webkit-transform: translateY(-100px);
@@ -1159,10 +1166,11 @@ post.alt .post-content.blog {
       font-style: normal;
       font-weight: 700; }
   .slide-info p {
-    color: #fff;
+    /*color: #fff;*/
+    color: #F04B00;
     letter-spacing: 1px;
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.75rem;
+    font-weight: 500;
     opacity: 0;
     -webkit-transform: translateY(-100px);
     -moz-transform: translateY(-100px);
@@ -1242,6 +1250,17 @@ post.alt .post-content.blog {
   height: 100vh;
   position: relative;
   left: 50%;
+  -webkit-animation: slide 0.3s ease-in-out;
+  -moz-animation: slide 0.3s ease-in-out;
+  animation: slide 0.3s ease-in-out; }
+.slide-right img {
+  max-width: 100%;
+  height: 100%; }
+
+.slide-full {
+  width: 100%;
+  height: 100vh;
+  position: relative;
   -webkit-animation: slide 0.3s ease-in-out;
   -moz-animation: slide 0.3s ease-in-out;
   animation: slide 0.3s ease-in-out; }
