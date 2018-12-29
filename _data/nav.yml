@@ -5,8 +5,12 @@
       path: leagues
     - name: Leaderboard for Fall Leagues
       path: leagues-201811
+    - name: Junior League
+      path: junior_golf
 - name: Reservations
   path: book
+- name: Junior Golf
+  path: junior_golf
 - name: Lessons & Rates
   path: rates
 - name: Gift cards
