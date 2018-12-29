@@ -1,5 +1,3 @@
-- name: Gift cards
-  path: gift
 - name: Leagues
   path: leagues
   children:
@@ -11,6 +9,8 @@
   path: book
 - name: Lessons & Rates
   path: rates
+- name: Gift cards
+  path: gift
 - name: Trackman
   path: technology
 - name: About us
