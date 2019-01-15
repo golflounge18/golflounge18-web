@@ -1,20 +1,16 @@
 - name: Leagues
   path: leagues
   children:
-    - name: Register for Jan League
+    - name: 2019 Winter League
       path: leagues
-    - name: Leaderboard for Fall Leagues
+    - name: 2018 Fall League
       path: leagues-201811
-    - name: Junior League
-      path: junior_golf
 - name: Reservations
   path: book
 - name: Junior Golf
   path: junior_golf
 - name: Lessons & Rates
   path: rates
-- name: Gift cards
-  path: gift
 - name: Trackman
   path: technology
 - name: About us
