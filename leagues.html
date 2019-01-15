@@ -2,6 +2,132 @@
 layout: default
 title: Leagues at Golf Lounge 18
 description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
+scores:
+- teamName: You scratched my anchor!
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: -5
+  results:
+  - net: -5
+- teamName: Noel & Rory
+  handicapGross: 9, 12
+  handicapNet: 6, 8
+  totalScore: -2
+  results:
+  - net: -2
+- teamName: Mohit and Eric
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: -2
+  results:
+  - net: -2
+- teamName: Marc and team
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: -1
+  results:
+  - net: -1
+- teamName: Fraser and Harry
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: E
+  results:
+  - net: E
+- teamName: Peter and David
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: E
+  results:
+  - net: E
+- teamName: Tom & Elizabeth
+  handicapGross: 9, 23
+  handicapNet: 7, 18
+  totalScore: E
+  results:
+  - net: E
+- teamName: Brian & Eric
+  handicapGross: ?, ?
+  handicapNet: ?, ?
+  totalScore: --
+  results:
+  - net: --
+- teamName: McFarlane brothers
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: TBD
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Chuk-de-phate
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Hole out par
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Chris & Chris
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Fore Left
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Grip it and Sip it
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Thunder Gun Express
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Tim & Matt
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Michael & Jason
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: The Mighty Mulligans
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Mulligan’s Island
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Philly Special
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: American Males
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: B-Town Boys
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Jared & Greg
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Gold Rush
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Putter Face
+  handicapGross:
+  handicapNet:
+  totalScore:
+- teamName: Sasco boys
+  handicapGross:
+  handicapNet:
+  totalScore:
+
 courses:
 - name: Sea Island, Plantation (Georgia)
   description: January 14-20
@@ -66,7 +192,39 @@ courses:
 
     </div>
 
-    <div class="row" style="background-color:lightgray;">
+    <div class="row" style="background-color: lightgray">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <h3 style="text-align: center">2019 Winter League Leaderboard</h3>
+        </div>
+        <p style="text-align: center"><u><strong>Scoring Rules:</strong></u> 70% of stated (gross) handicap is applied to each round.<br>Top 5 of 6 scores count towards the playoffs (top 8 teams participate in a bracket)</p>
+        <div class="medium-10 medium-centered columns">
+            <div style="text-align: center; align-content: center"><center>
+                <table>
+                    <tr>
+                        <th>Team Name</th><th>Handicaps</th><th>Total</th><th>Sea Island Plantation</th><th>Sedgefield CC</th><th>Muirfield Village</th><th>St. Andrews, Castle Course</th><th>Royal Troon</th><th>PGA National</th>
+                    </tr>
+                    {% for score in page.scores %}
+                    <tr>
+                        <td>{{score.teamName}}</td>
+                        <td style="white-space: nowrap">Gross: {{score.handicapGross}}<br>Net: {{score.handicapNet}}</td>
+                        <td style="text-align: center"><strong>{{score.totalScore}}</strong></td>
+                        {% for result in score.results %}
+                        <!--
+                        <td>{{result.net}} ({{result.gross}})</td>
+                        -->
+                        <td style="text-align: center">{{result.net}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table></center>
+                <div class="one spacing"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
         <div class="one spacing"></div>
         <div class="section-title">
             <div class="row">
