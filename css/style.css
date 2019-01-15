@@ -1259,7 +1259,7 @@ post.alt .post-content.blog {
 
 .slide-full {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   position: relative;
   -webkit-animation: slide 0.3s ease-in-out;
   -moz-animation: slide 0.3s ease-in-out;
