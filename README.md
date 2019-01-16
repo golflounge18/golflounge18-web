@@ -19,7 +19,6 @@ example: https://www.xgolfshelby.com/
 ## TODO
 - Redo website with styling from https://trackmangolf.com/what-we-track
 - Add a feedback form
-- Need event enquiry form
 - Add testimonials - Uncomment / Fix / Get testimonials on index.html
     - This is great! I am never slowed down by a slow group in front of me! - Ajay
     - Trackman makes coaching more fun and it enables us to get better results with students faster - quote from instructor
