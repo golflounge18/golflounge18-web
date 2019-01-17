@@ -6,59 +6,63 @@ scores:
 - teamName: Thunder Gun Express
   totalScore: -7
   results:
-  - net: -7
+  - score: -7
 - teamName: You scratched my anchor!
   totalScore: -5
   results:
-  - net: -5
+  - score: -5
 - teamName: Grip it and Sip it
   totalScore: -5
   results:
-  - net: -5
+  - score: -5
 - teamName: Bangin Putts
   totalScore: -3
   results:
-  - net: -3
+  - score: -3
 - teamName: Chris & Chris
   totalScore: -3
   results:
-  - net: -3
+  - score: -3
 - teamName: Hole out par
   totalScore: -2
   results:
-  - net: -2
+  - score: -2
 - teamName: Michael & Jason
   totalScore: -2
   results:
-  - net: -2
+  - score: -2
 - teamName: Noel & Rory
   totalScore: -2
   results:
-  - net: -2
+  - score: -2
 - teamName: Mohit & Eric
   totalScore: -2
   results:
-  - net: -2
+  - score: -2
 - teamName: Marc & Christian
   totalScore: -1
   results:
-  - net: -1
+  - score: -1
 - teamName: Fraser & Harry
   totalScore: E
   results:
-  - net: E
+  - score: E
 - teamName: Peter & David
   totalScore: E
   results:
-  - net: E
+  - score: E
 - teamName: Tom & Elizabeth
   totalScore: E
   results:
-  - net: E
+  - score: E
+- teamName: Mulligan’s Island
+  totalScore: 3
+  results:
+  - score: 3
 - teamName: Brian & Eric
   totalScore: --
   results:
-  - net: --
+  - score: --
 - teamName: McFarlane brothers
   totalScore:
 - teamName: TBD
@@ -68,8 +72,6 @@ scores:
 - teamName: Fore Left
   totalScore:
 - teamName: The Mighty Mulligans
-  totalScore:
-- teamName: Mulligan’s Island
   totalScore:
 - teamName: Philly Special
   totalScore:
@@ -146,7 +148,7 @@ courses:
         <div class="medium-10 medium-centered columns">
             <h3 style="text-align: center">2019 Winter League Leaderboard</h3>
         </div>
-        <p style="text-align: center"><u><strong>Scoring Rules:</strong></u> 70% of stated (gross) handicap is applied to each round.<br>Top 5 of 6 scores count towards the playoffs (top 8 teams participate in a bracket)</p>
+        <p style="text-align: center"><u><strong>Scoring Rules:</strong></u> 70% of stated index is applied to each round.<br>Top 5 of 6 scores count towards the playoffs (top 8 teams participate in the Playoffs)</p>
         <div class="medium-10 medium-centered columns">
             <div style="text-align: center; align-content: center"><center>
                 <table>
@@ -158,7 +160,7 @@ courses:
                         <td>{{score.teamName}}</td>
                         <td style="text-align: center"><strong>{{score.totalScore}}</strong></td>
                         {% for result in score.results %}
-                        <td style="text-align: center">{{result.net}}</td>
+                        <td style="text-align: center">{{result.score}}</td>
                         {% endfor %}
                     </tr>
                     {% endfor %}
