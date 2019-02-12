@@ -2,6 +2,107 @@
 layout: default
 title: Trackman - Experience the best in Golf
 description: Trackman - Best launch monitor technology at Golf Lounge 18
+
+
+courses:
+- course:
+  name: st-andrews-castle
+  description: St. Andrews, Castle Course (Scotland)
+- course:
+  name: st-andrews-jubilee
+  description: St. Andrews, Jubilee (Scotland)
+- course:
+  name: st-andrews-new
+  description: St. Andrews, New Course (Scotland)
+- course:
+  name: st-andrews-old
+  description: St. Andrews, Old Course (Scotland)
+- course:
+  name: crystal-pines
+  description: Crystal Pines (British Columbia - Fictional)
+- course:
+  name: devils-island
+  description: Devils Island (Island - Fictional)
+- course:
+  name: albany
+  description: Albany Golf Course (Bahamas)
+- course:
+  name: bethesda
+  description: Bethesda CC (Maryland)
+- course:
+  name: kissing-tree
+  description: Kissing Tree (Texas)
+- course:
+  name: herzogenaurach
+  description: Golf Club Herzogenaurach (Germany)
+- course:
+  name: hidden-canyon
+  description: Hidden Canyon (Desert - Fictional)
+- course:
+  name: innisbrook
+  description: Innisbrook, Copperhead (Florida)
+- course:
+  name: interlachen
+  description: Interlachen Country Club (Minnesota)
+- course:
+  name: olympic-rio
+  description: Olympic Golf Course Rio (Rio)
+- course:
+  name: pga-national
+  description: PGA National, Champion (Florida)
+- course:
+  name: muirfield
+  description: Muirfield Village (Ohio)
+- course:
+  name: royal-birkdale
+  description: Royal Birkdale (UK)
+- course:
+  name: royal-troon
+  description: Royal Troon (Scotland)
+- course:
+  name: rungsted
+  description: Rungsted Golf Club (Denmark)
+- course:
+  name: sebonack
+  description: Sebonack (New York)
+- course:
+  name: the-grove
+  description: The Grove (UK)
+- course:
+  name: sea-island-plantation
+  description: Sea Island, Plantation (Georgia)
+- course:
+  name: sea-island-seaside
+  description: Sea Island, Seaside (Georgia)
+- course:
+  name: sedgefield
+  description: Sedgefield CC (North Carolina)
+- course:
+  name: shadowlands
+  description: Shadowlands (Europe - Fictional)
+- course:
+  name: senoja-valley
+  description: Senoja Valley (Fictional, Par 3)
+- course:
+  name: shelter-harbor
+  description: Shelter Harbor Golf Club (Rhode Island)
+- course:
+  name: abels-crossing
+  description: Abel’s Crossing (Fictional, <br>Par 3)
+- course:
+  name: aces-club
+  description: The Aces Club (Fictional, <br>Par 3)
+- course:
+  name: sand-river
+  description: Sand River (Fictional, <br>Par 3)
+- course:
+  name: lost-9
+  description: The Lost 9 (Fictional, <br>Par 3)
+- course:
+  name: lostwood-glen
+  description: Lostwood Glen (Fictional, <br>Par 3)
+- course:
+  name:
 ---
 
 <div class="full">
@@ -58,49 +159,29 @@ description: Trackman - Best launch monitor technology at Golf Lounge 18
         </div>
     </div>
 
-    <div class="section-title">
-        <div class="row">
+    <div class="row" style="background-color: lightgray">
+            <div class="one spacing"></div>
             <div class="medium-10 medium-centered columns">
                 <h3>Play at some of the world's best golf courses with stunning hyper-realistic graphics.</h3>
             </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="medium-10 medium-centered columns">
-            <ul>
-                <li>Sea Island, Plantation (Georgia)</li>
-                <li>Sea Island, Seaside (Georgia)</li>
-                <li>St. Andrews, Old Course (Scotland)</li>
-                <li>St. Andrews, New Course (Scotland)</li>
-                <li>St. Andrews, Jubilee (Scotland)</li>
-                <li>St. Andrews, Castle Course (Scotland)</li>
-                <li>Bethesda CC (Maryland)</li>
-                <li>Innisbrook, Copperhead (Florida)</li>
-                <li>Kissing Tree (Texas)</li>
-                <li>Muirfield Village (Ohio)</li>
-                <li>Olympic Golf Course Rio (Rio)</li>
-                <li>PGA National, Champion (Florida)</li>
-                <li>Royal Birkdale (UK)</li>
-                <li>Royal Troon (Scotland)</li>
-                <li>Rungsted Golf Club (Denmark)</li>
-                <li>Albany Golf Course (Bahamas)</li>
-                <li>Sebonack (New York)</li>
-                <li>Shelter Harbor Golf Club (Rhode Island)</li>
-                <li>Sedgefield CC (North Carolina)</li>
-                <li>Interlachen Country Club (Minnesota)</li>
-                <li>The Grove (UK)</li>
-                <li>Golf Club Herzogenaurach (Germany)</li>
-                <li>Shadowlands (Europe - Fictional)</li>
-                <li>Crystal Pines (British Columbia, CAN - Fictional)</li>
-                <li>Devils Island (Island - Fictional)</li>
-                <li>Hidden Canyon (Desert - Fictional)</li>
-                <li>Sand River (Fictional, Par 3)</li>
-                <li>Abel’s Crossing (Fictional, Par 3)</li>
-                <li>The Aces Club (Fictional, Par 3)</li>
-                <li>Senoja Valley (Fictional, Par 3)</li>
-                <li>Lostwood Glen (Fictional, Par 3)</li>
-                <li>The Lost 9 (Fictional, Par 3)</li>
-            </ul>
+            <div class="medium-10 medium-centered columns">
+                {% for course in page.courses %}
+                <div class="medium-4 columns">
+                    <div class="member">
+                        {% if course.name %}
+                        <a target="_blank" href="/images/courses/{{course.name}}.jpeg">
+                        <img style="height: auto;" src="/images/courses/thumbs/{{course.name}}-thumb.jpeg" alt="{{course.description}}">
+                        </a>
+                        {% endif %}
+                        <div class="member-info">
+                            {% if course.description %}
+                            <p class="description"><tt>{{course.description}}</tt></p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 
