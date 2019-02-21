@@ -1,17 +1,24 @@
 ---
-layout: default-post
+layout: default
 section_id: blog
 ---
 
-<div class="full blog">
+<div class="full">
   <div class="post single">
+    <div class="two spacing"></div>
     <div class="row">
-      <div class="large-8 large-centered columns">
+      <div class="large-9 large-centered columns">
+        {% if page.images %}
+        <p style="text-align: center">
+          <img src="{{site.url}}/{{page.images[0]}}"/>
+        </p>
+        {% endif %}
+        <div class="two spacing"></div>
         <div class="post-content">
-          <h2 id="page-title">{{page.title}}</h2>
-          <p class='info'>
+          <h2>{{page.title}}</h2>
+          <p>
             {% if page.categories != empty %}
-              <span>
+            <span>
                 {% for cat in page.categories %}
                   <a href="#">{{cat | capitalize }}</a>
                   {% unless forloop.last %}
@@ -19,9 +26,11 @@ section_id: blog
                   {% endunless %}
                 {% endfor %}
               </span>
-              /
+            /
             {% endif %}
-            <span>{{page.date | date: "%B %d, %Y" }}</span> by <a href="{{page.link}}" target="_blank">{{page.author}}</a>
+            <span>{{page.date | date: "%B %d, %Y" }}</span>
+            /
+            <span>{{page.author}}</span>
           </p>
           {{content}}
         </div>
@@ -29,22 +38,23 @@ section_id: blog
     </div>
   </div>
 </div>
-<div class="full light-grey blog">
+
+<div class="full light-grey">
   <nav class='wrapper'>
     <div class="row">
       <div class="small-6 columns">
         {% if page.previous.url %}
-          <a class="previous button boxed black" href='{{page.previous.url | replace:'.html','' }}'>
-            <i class='fa fa-angle-left'></i> Previous post
-          </a>
+        <a class="previous button boxed black" href='{{page.previous.url}}'>
+          <i class='fa fa-angle-left'></i> Previous post
+        </a>
         {% endif %}
 
       </div>
       <div class="small-6 columns">
         {% if page.next.url %}
-          <a class="next button boxed black" href='{{page.next.url | replace:'.html','' }}'>
-            Next post <i class='fa fa-angle-right'></i>
-          </a>
+        <a class="next button boxed black" href='{{page.next.url}}'>
+          Next post<i class='fa fa-angle-right'></i>
+        </a>
         {% endif %}
       </div>
     </div>
