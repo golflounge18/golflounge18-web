@@ -8,7 +8,14 @@
 - name: Reservations
   path: book
 - name: Junior Golf
-  path: junior_golf
+  path: junior_overview
+  children:
+    - name: Family Tournaments
+      path: family_tournaments
+    - name: Weekly play
+      path: junior_games
+- name: Gift cards
+  path: gift
 - name: Lessons & Rates
   path: rates
 - name: Trackman
