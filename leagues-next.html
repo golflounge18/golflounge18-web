@@ -1,0 +1,201 @@
+---
+layout: default
+title: Leagues at Golf Lounge 18
+description: Leagues for Mens, Womens, Juniors, Seniors at Golf Lounge 18
+scores:
+- teamName: Skins Winners
+  results:
+  - score:
+- teamName: Closest-to-pin winner
+  results:
+  - score: Elizabeth, Tim
+- teamName: Sasco boys
+  totalScore: -29
+  best5: -28
+  results:
+  - score: -4
+
+
+courses:
+- name: Sea Island, Plantation (Georgia)
+  description: March 18-24
+  image: images/sea-island-plantation.jpg
+- name: Sedgefield CC (North Carolina)
+  description: March 25-31
+  image: images/sedgefield.jpg
+- name: Muirfield Village (Ohio in th United States)
+  description: April 1-7
+  image: images/muirfield.jpg
+- name: St. Andrews, Castle Course (Scotland)
+  description: April 8 - 14
+  image: images/st-andrews-castle.jpg
+- name: Royal Troon (Scotland)
+  description: April 15-21
+  image: images/troon.jpg
+- name: PGA National Golf Course, Champion (Florida)
+  description: April 22-28
+  image: images/pga-national.jpg
+- name: Olympic Golf Course Rio (Rio)
+  description: April 29 - May 5 (Playoffs 16-8)
+  image: images/olympic-rio.jpg
+- name: Playoffs 8-4
+  description: May 8
+  image: images/olympic-rio.jpg
+- name: Playoffs 4-2 and 2-1
+  description: May 15
+  image: images/olympic-rio.jpg
+---
+
+<div class="full text">
+
+    <div class="section-title" style="
+                        background-image: url('images/bg-bays.jpeg');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+        <div class="row">
+            <div class="one spacing"></div>
+            <div class="medium-10 medium-centered columns">
+                <h3 style="color: #ffffff">GOLF LOUNGE 18 SPRING LEAGUE - STARTING MAR 18 2019</h3>
+                <p style="font-size: 1.1rem; color: #ffffff">
+                    Round up your friends and compete for prizes and bragging rights for the title
+                    of <strong>League Champions</strong>. It's a perfect opportunity to hangout with
+                    friends, and meet new ones in a fun and competitive environment.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="medium-10 medium-centered columns">
+                <p style="text-align: center">
+                    <a class="button boxed" href="#register">Register your team for Spring League</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--
+    <div class="row" style="background-color: lightgray">
+        <div class="one spacing"></div>
+        <p style="text-align: center">
+            <img src="/images/gl18-bracket-winter-league.jpg"/>
+        </p>
+        <div class="medium-10 medium-centered columns">
+                <h3 style="text-align: center">2019 Winter League Leaderboard</h3>
+            </div>
+            <p style="text-align: center"><u><strong>Scoring Rules:</strong></u> 70% of stated index is applied to each round.<br>Top 5 of 6 scores count towards the playoffs (top 8 teams participate in the Playoffs)</p>
+        <div class="medium-10 medium-centered columns">
+            <div style="text-align: center; align-content: center"><center>
+                <table>
+                    <tr>
+                        <th>Team Name</th><th>Best&nbsp;5</th><th>Total</th><th>Sea Island Plantation</th><th>Sedgefield CC</th><th>Muirfield Village</th><th>St. Andrews, Castle Course</th><th>Royal Troon</th><th>PGA National</th>
+                    </tr>
+                    {% for score in page.scores %}
+                    <tr>
+                        <td>{{score.teamName}}</td>
+                        <td style="text-align: center"><strong>{{score.best5}}</strong></td>
+                        <td>{{score.totalScore}}</td>
+                        {% for result in score.results %}
+                        <td style="text-align: center">{{result.score}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table></center>
+                <div class="one spacing"></div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="row">
+        <div class="one spacing"></div>
+        <div class="section-title">
+            <div class="row">
+                <div class="medium-10 medium-centered columns">
+                    <h3>Are You Game?</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="medium-10 medium-centered columns">
+            <!--
+            <div class="large-6 columns">
+                <div class="quote reverse" style="padding: 5px; border: none; color: #000;">
+                    <a href="/images/league-201901.jpg" target="_blank">
+                        <img src="/images/league-201901-small.jpg">
+                    </a>
+                </div>
+            </div>
+            -->
+
+            <div class="medium-10 medium-centered columns">
+
+                <div class="large-6 columns">
+                    <div class="quote reverse" style="background-color:white;padding: 10px; border: 2px solid; color: #000; opacity: 0.7">
+                        <div class="one spacing"></div>
+                        <h4 style="text-align: center"><u>LEAGUE FORMAT AND RULES</u></h4>
+                        <ul>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">Starting in the week of March 18</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem"><strong>Flexible timing</strong>: If you cannot play during league times, we will assign you a time that works for you</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">Each team consists of two players.</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">Scoring format: Best ball, handicap-adjusted for leagues - Putting Optional</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">Each team will play assigned course every week - 9 holes</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">League will run for 7 weeks</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem">Top 16 teams enter elimination style playoffs</li>
+                            <li style="margin-bottom: 0.5rem; font-size: 1rem"><strong>League dues - </strong>300 per player</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: lightgray">
+        <div class="one spacing"></div>
+        <div class="medium-10 medium-centered columns">
+            <h3 style="text-align: center">Course list for the League</h3>
+        </div>
+        <div class="medium-10 medium-centered columns">
+            {% for course in page.courses %}
+            <div class="medium-4 columns">
+                <div class="member">
+                    {% if course.image %}
+                    <img style="height: auto;" src="{{course.image}}" alt="{{course.name}}">
+                    {% endif %}
+                    <div class="member-info">
+                        {% if course.description %}
+                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <a name="register"></a>
+
+    <div class="two spacing"></div>
+    <div class="one spacing"></div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <p>
+            <center>Have a question before you book? Contact us at <a href="mailto:{{site.email}}"><u>{{site.email}}</u></a></center>
+            </p>
+        </div>
+        <div class="one spacing"></div>
+    </div>
+
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <p>
+                <script type="text/javascript" src="https://forms.zohopublic.com/golflounge18/form/GL18Spring2019LeagueRegistrationform/jsperma/AfTfGOsNyrKauwHJPyaNmpLUVpWfoG-tb6gO_sliOSg?height=2500px&width=100%25" id="ZFScript"></script>
+            </p>
+            <div class="one spacing"></div>
+        </div>
+    </div>
+
+</div>
