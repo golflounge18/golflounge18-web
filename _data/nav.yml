@@ -1,8 +1,10 @@
 - name: Leagues
   path: leagues
   children:
-    - name: 2019 Winter League
+    - name: 2019 Spring League
       path: leagues
+    - name: 2019 Winter League
+      path: leagues-201901
     - name: 2018 Fall League
       path: leagues-201811
 - name: Reservations
