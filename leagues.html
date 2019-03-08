@@ -15,35 +15,34 @@ scores:
   results:
   - score: -4
 
-
 courses:
-- name: Sea Island, Plantation (Georgia)
-  description: March 18-24
-  image: images/sea-island-plantation.jpg
 - name: Sedgefield CC (North Carolina)
+  description: March 18-24
+  imageTag: sedgefield
+- name: Innisbrook, Copperhead (Florida)
   description: March 25-31
-  image: images/sedgefield.jpg
-- name: Muirfield Village (Ohio in th United States)
+  imageTag: innisbrook
+- name: Royal Birkdale (United Kingdom)
   description: April 1-7
-  image: images/muirfield.jpg
-- name: St. Andrews, Castle Course (Scotland)
+  imageTag: royal-birkdale
+- name: Rungsted Golf Club (Denmark)
   description: April 8 - 14
-  image: images/st-andrews-castle.jpg
-- name: Royal Troon (Scotland)
+  imageTag: rungsted
+- name: Bethesda CC (Maryland)
   description: April 15-21
-  image: images/troon.jpg
-- name: PGA National Golf Course, Champion (Florida)
+  imageTag: bethesda
+- name: Shelter Harbor Golf Club (Rhode Island)
   description: April 22-28
-  image: images/pga-national.jpg
-- name: Olympic Golf Course Rio (Rio)
-  description: April 29 - May 5 (Playoffs 16-8)
-  image: images/olympic-rio.jpg
-- name: Playoffs 8-4
-  description: May 8
-  image: images/olympic-rio.jpg
-- name: Playoffs 4-2 and 2-1
-  description: May 15
-  image: images/olympic-rio.jpg
+  imageTag: shelter-harbor
+- name: St. Andrews, Jubilee (Scotland)
+  description: April 29 - May 5
+  imageTag: st-andrews-jubilee
+- name: Kissing Tree (Texas)
+  description: May 8 (Playoffs semi-finals)
+  imageTag: kissing-tree
+- name: Sebonack (New York)
+  description: May 15 (Playoffs finals and League party)
+  imageTag: sebonack
 ---
 
 <div class="full text">
@@ -155,26 +154,30 @@ courses:
         <div class="one spacing"></div>
         <div class="medium-10 medium-centered columns">
             <h3 style="text-align: center">Course list for the League</h3>
-            <h2 style="text-align: center">Coming soon</h2>
         </div>
         <!--
+- name: Kissing Tree (Texas)
+  description: May 8 (Playoffs semi-finals)
+  imageTag: kissing-tree
+        -->
         <div class="medium-10 medium-centered columns">
             {% for course in page.courses %}
             <div class="medium-4 columns">
                 <div class="member">
-                    {% if course.image %}
-                    <img style="height: auto;" src="{{course.image}}" alt="{{course.name}}">
+                    {% if course.imageTag %}
+                    <a target="_blank" href="/images/courses/{{course.imageTag}}.jpeg">
+                        <img style="height: auto;" src="/images/courses/thumbs/{{course.imageTag}}-thumb.jpeg" alt="{{course.name}}">
+                    </a>
                     {% endif %}
                     <div class="member-info">
                         {% if course.description %}
-                        <p class="description">{{course.description}} - <strong>{{course.name}}</strong></p>
+                        <p class="description"><tt>{{course.description}} - <strong>{{course.name}}</strong></tt></p>
                         {% endif %}
                     </div>
                 </div>
             </div>
             {% endfor %}
         </div>
-        -->
     </div>
 
     <a name="register"></a>
