@@ -18,7 +18,7 @@
       path: junior_games
 - name: Gift cards
   path: gift
-- name: Lessons & Rates
+- name: Memberships & Rates
   path: rates
 - name: Trackman
   path: technology
