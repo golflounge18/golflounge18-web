@@ -1,8 +1,10 @@
 - name: Leagues
   path: leagues
   children:
-    - name: 2019 Spring League
+    - name: 2019 Summer League
       path: leagues
+    - name: 2019 Spring League
+      path: leagues-201904
     - name: 2019 Winter League
       path: leagues-201901
     - name: 2018 Fall League
