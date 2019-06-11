@@ -1,3 +1,7 @@
+- name: Father's Day Shootout
+  path: fathers_day_shootout
+- name: Gift cards
+  path: gift
 - name: Leagues
   path: leagues
   children:
@@ -11,20 +15,9 @@
       path: leagues-201811
 - name: Reservations
   path: book
-- name: Junior Golf
-  path: junior_overview
-  children:
-    - name: Family Tournaments
-      path: family_tournaments
-    - name: Weekly play
-      path: junior_games
-- name: Gift cards
-  path: gift
 - name: Memberships & Rates
   path: rates
 - name: Trackman
   path: technology
 - name: About us
   path: about
-- name: Blog
-  path: blog
